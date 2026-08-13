@@ -42,7 +42,7 @@ function parseDate(raw) {
   return isNaN(d.getTime()) ? null : d.toISOString();
 }
 
-function normalizeItem(rawUrl, title, summary, pubDate, sourceId, category, fixed = false) {
+function normalizeItem(rawUrl, title, summary, pubDate, sourceId, category, fixed = false, imageUrl = null) {
   const rawTitle = decodeEntities((title ?? '').trim());
   const rawSummary = decodeEntities(summary?.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim() ?? '');
   return {
@@ -55,7 +55,38 @@ function normalizeItem(rawUrl, title, summary, pubDate, sourceId, category, fixe
     summary: truncate(rawSummary),
     published_at: parseDate(pubDate),
     collected_at: new Date().toISOString(),
+    image_url: imageUrl,
   };
+}
+
+// enclosure → media:content → media:thumbnail の優先順で画像URLを抽出
+function extractImageUrl(e) {
+  const enc = e.enclosure;
+  if (enc) {
+    const arr = Array.isArray(enc) ? enc : [enc];
+    for (const en of arr) {
+      const type = en['@_type'] ?? '';
+      const url = en['@_url'] ?? '';
+      if (type.startsWith('image/') && url) return url;
+    }
+  }
+  const mc = e['media:content'];
+  if (mc) {
+    const arr = Array.isArray(mc) ? mc : [mc];
+    for (const m of arr) {
+      const url = m['@_url'] ?? '';
+      if (url) return url;
+    }
+  }
+  const mt = e['media:thumbnail'];
+  if (mt) {
+    const arr = Array.isArray(mt) ? mt : [mt];
+    for (const m of arr) {
+      const url = m['@_url'] ?? '';
+      if (url) return url;
+    }
+  }
+  return null;
 }
 
 async function reject(sourceId, url, reason) {
@@ -108,7 +139,7 @@ async function processRss(source) {
                  ?? e['content:encoded'] ?? '';
     // 是正2: RSS 1.0の dc:date をpublished_atに採用（はてブのnull対策）
     const pubDate = e.pubDate ?? e['dc:date'] ?? e.published ?? e.updated ?? null;
-    items.push(normalizeItem(url, title, summary, pubDate, source.id, source.category));
+    items.push(normalizeItem(url, title, summary, pubDate, source.id, source.category, false, extractImageUrl(e)));
   }
   return items;
 }

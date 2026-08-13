@@ -1,0 +1,9 @@
+publish_time: "07:00"            # 発行目標時刻(JST)。実行主体はchat-pwa
+pool: [cleade]                   # ニュース参加ペルソナ(chat-pwa側UIが管理)
+model_voice: anthropic/claude-sonnet-4.6
+model_cross: anthropic/claude-haiku-4.5
+cross_response_probability: 0.3
+distill_max_tokens: 2000         # 直近記憶蒸留の上限
+feed_days: 7
+retention_days: 30
+images_enabled: true
