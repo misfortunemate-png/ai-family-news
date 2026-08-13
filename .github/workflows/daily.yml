@@ -1,21 +1,20 @@
 name: daily
-
 on:
   schedule:
-    - cron: '0 21 * * *'   # UTC 21:00 = JST 06:00
+    - cron: '0 21 * * *'  # 06:00 JST (UTC+9)
   workflow_dispatch:
     inputs:
       dry_run:
+        description: 'LLM採点をスキップ'
         type: boolean
         default: false
-        description: 'dry-run（採点スキップ）'
+
+permissions:
+  contents: write
 
 jobs:
-  run:
+  pipeline:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
       - uses: actions/checkout@v4
 
@@ -23,25 +22,25 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm ci
+      - run: npm ci
 
       - name: Collect
         run: node scripts/collect.mjs
 
       - name: Select
-        run: node scripts/select.mjs
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          DRY_RUN: ${{ inputs.dry_run == true && '1' || '0' }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+        run: node scripts/select.mjs
 
-      - name: Commit and push
+      - name: Commit & Push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "family-news-bot"
+          git config user.email "bot@family-news"
+          DATE=$(date -u +%Y-%m-%d)
+          ITEMS=$(cat data/items/${DATE}.jsonl 2>/dev/null | wc -l || echo 0)
+          CANDS=$(grep -c 'id:' data/candidates/${DATE}.yaml 2>/dev/null || echo 0)
           git add data/ logs/
-          COUNT_ITEMS=$(cat data/items/$(date +%Y-%m-%d).jsonl 2>/dev/null | wc -l || echo 0)
-          COUNT_CAND=$(python3 -c "import yaml,sys; d=yaml.safe_load(open('data/candidates/$(date +%Y-%m-%d).yaml')); print(d.get('count',0))" 2>/dev/null || echo 0)
-          git diff --cached --quiet || git commit -m "[daily] $(date +%Y-%m-%d) 収集${COUNT_ITEMS}件 短冊${COUNT_CAND}件"
-          git pull --rebase origin main
-          git push origin main
+          git diff --cached --quiet || git commit -m "[daily] ${DATE} 収集${ITEMS}件 短冊${CANDS}件"
+          git pull --rebase
+          git push
