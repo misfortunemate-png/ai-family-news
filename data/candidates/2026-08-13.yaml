@@ -1,0 +1,424 @@
+date: '2026-08-13'
+count: 30
+candidates:
+  - id: 49d05da81f8ee9c3
+    url: https://qiita.com/y0us91/items/2feffd2cc6c672717973
+    source_id: hatebu_hot
+    category: ai
+    fixed: false
+    title: >-
+      AI&#x304C;&#x5B9F;&#x88C5;&#x3057;&#x3001;AI&#x304C;&#x30C6;&#x30B9;&#x30C8;&#x3057;&#x3001;AI&#x304C;&#x300C;&#x554F;&#x984C;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093;&#x300D;&#x3068;&#x8A00;&#x3046;&#
+    summary: >-
+      &#x306F;&#x3058;&#x3081;&#x306B; Coding
+      Agent&#x306E;&#x9032;&#x5316;&#x306B;&#x3088;&#x3063;&#x3066;&#x3001;&#x30BD;&#x30D5;&#x30C8;&#x30A6;&#x30A7;&#x30A2;&#x958B;&#x767A;&#x306E;&#x5F62;&#x304C;&#x5927;&#x304D;&#x304F;&#x5909;&#x308F;&#x308A;&#x59CB;&#x3081;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002
+    published_at: null
+    collected_at: '2026-08-13T09:46:36.468Z'
+    score: 80
+    reason_code: ai_dev_workflow
+    slot: preference
+  - id: c78b5c2016d97fb8
+    url: https://www.techno-edge.net/article/2026/08/12/5385.html
+    source_id: hatebu_hot
+    category: ai
+    fixed: false
+    title: >-
+      Word&#x30FB;Excel&#x30FB;PDF&#x306A;&#x3069;&#x306E;&#x6587;&#x66F8;&#x3092;AI&#x304C;&#x8AAD;&#x307F;&#x3084;&#x3059;&#x3044;Markdown&#x306B;&#x7206;&#x901F;&#x5909;&#x63DB;&#x3059;&#x308B;&#x300C;an
+    summary: >-
+      1&#x9031;&#x9593;&#x306E;&#x6C17;&#x306B;&#x306A;&#x308B;&#x751F;&#x6210;AI&#x6280;&#x8853;&#x30FB;&#x7814;&#x7A76;&#x3092;&#x3044;&#x304F;&#x3064;&#x304B;&#x30D4;&#x30C3;&#x30AF;&#x30A2;&#x30C3;&#x30D7;&#x3057;&#x3066;&#x89E3;&#x8AAC;&#x3059;&#x308B;&#x9023;&#x8F09;&#x300C;&#x751F;&#x6210;AI&#x30A6
+    published_at: null
+    collected_at: '2026-08-13T09:46:36.468Z'
+    score: 80
+    reason_code: ai_tool_doc
+    slot: preference
+  - id: 75dc6f0563866a05
+    url: https://www.itmedia.co.jp/news/article/2608/13/2000000514/
+    source_id: itmedia_news
+    category: ai
+    fixed: false
+    title: 個人開発のAIデザインツール「Rikyū」　“幾何学的なデザイン”機能が秀逸と話題に
+    summary: >-
+      幾何学的にロゴをデザインできる個人開発のAIサービス「Rikyū」がXで話題だ。生成ロゴや“設計図”風の画像にも注目が集まり、Xでは成果物の投稿が相次いでいる。
+    published_at: '2026-08-13T01:00:00.000Z'
+    collected_at: '2026-08-13T09:46:40.008Z'
+    score: 80
+    reason_code: indie_ai_tool
+    slot: preference
+  - id: 29010748e7d5a64a
+    url: https://www.itmedia.co.jp/news/article/2608/13/2000000520/
+    source_id: itmedia_news
+    category: ai
+    fixed: false
+    title: SpaceXAI、「Grok 4.6」を発表　総合指標で「GPT-5.6 Sol Max」に並ぶと謳う
+    summary: >-
+      SpaceXAIは、AIモデル「Grok 4.6」を発表した。前世代の「Grok
+      4.5」をベースに、多数の手順にまたがって作業を続けるエージェント用途と、対話的・視覚的な成果物の作成を強化した。「Cursor」、「Grok
+      Build」、「Grok Bot」、APIで同日提供を始めた。API料金は入力100万トークン当たり2ドルから。
+    published_at: '2026-08-12T21:32:01.000Z'
+    collected_at: '2026-08-13T09:46:40.008Z'
+    score: 80
+    reason_code: ai_model_release
+    slot: preference
+  - id: 885d7f2387d6e7a9
+    url: https://www.itmedia.co.jp/news/article/2608/12/2000000506/
+    source_id: itmedia_news
+    category: ai
+    fixed: false
+    title: SpaceXAI、AIエージェント「Grok Bot」発表　クラウド環境で常時稼働、GrokやCursorの有料ユーザー向けに
+    summary: >-
+      米SpaceXAIは8月11日（現地時間）、常時稼働型のAIエージェント「Grok
+      Bot」（β版）を発表した。チャットでタスクを渡すとBotがアプリやWebサイトを操作して作業を進め、役割の異なる複数のBotを並列で働かせることもできる。
+    published_at: '2026-08-12T06:33:57.000Z'
+    collected_at: '2026-08-13T09:46:40.008Z'
+    score: 80
+    reason_code: ai_agent_launch
+    slot: preference
+  - id: a1c71371ec448466
+    url: https://gigazine.net/news/20260813&#45;lfm2&#45;5&#45;vl&#45;3b/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: スマホで動く視覚言語モデル「LFM2.5&#45;VL&#45;3B」が登場、日本語対応でUI認識やOCRに活用できる
+    summary: >-
+      アメリカに拠点を置くAI企業のLiquid
+      AIが視覚言語モデル「LFM2.5-VL-3B」を発表しました。LFM2.5-VL-3Bはスマートフォンでも動作することが確認されている軽量VLMで、文書のOCRやUIの認識などが可能。オープンモデルとして公開されており、無償でダウンロード可能です。続きを読む...
+    published_at: '2026-08-13T07:31:00.000Z'
+    collected_at: '2026-08-13T09:46:41.947Z'
+    score: 80
+    reason_code: lightweight_vlm
+    slot: preference
+  - id: d4259649fc3c6aa5
+    url: https://gigazine.net/news/20260813&#45;grok&#45;4&#45;6/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: 「Grok 4.6」が登場、長時間のエージェント作業に強くなりGPT&#45;5.6 SolやClaude Fable 5と並ぶ性能に
+    summary: >-
+      SpaceXAIは2026年8月12日にAIモデル「Grok 4.6」を発表しました。Grok
+      4.5をベースに同じ価格で大幅な改善を示しており、長時間実行されるAIエージェントの作業や、より高度なインタラクティブなビジュアル処理に重点を置いています。続きを読む...
+    published_at: '2026-08-13T04:33:00.000Z'
+    collected_at: '2026-08-13T09:46:41.947Z'
+    score: 80
+    reason_code: ai_model_update
+    slot: preference
+  - id: 0351300e19a07029
+    url: >-
+      https://gigazine.net/news/20260813&#45;alibaba&#45;qwen&#45;3&#45;8&#45;open/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: 2.4兆パラメーターの中華AI「Qwen3.8」がオープンモデルとして無償公開される、OpenAIやAnthropicの最先端モデルに匹敵する性能
+    summary: >-
+      中国企業・AlibabaのAI研究チームであるQwenがAIモデル「Qwen3.8-2.4T-A95B」をオープンモデルとして公開しました。AlibabaはすでにQwen3.8-2.4T-A95Bをベースとした「Qwen3.8
+      Max」を製品展開しており、OpenAIやAnthropicの最先端モデルに匹敵する性能として評価されています。続きを読む...
+    published_at: '2026-08-13T03:09:00.000Z'
+    collected_at: '2026-08-13T09:46:41.947Z'
+    score: 80
+    reason_code: open_source_ai
+    slot: preference
+  - id: af564c010a4d3d3e
+    url: https://gigazine.net/news/20260813&#45;pua/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: AIの5大サボりパターンを自動的に解決し無理矢理限界突破させて働かせまくるAIエージェント向けプラグイン「pua」
+    summary: >-
+      「環境の問題かもしれません」と言い訳したり、何回も同じコマンドを実行して「解決できません」と言ったりしてAIが処理をストップしてしまうことを防ぐAIエージェント向けプラグイン「pua」が公開されました。続きを読む...
+    published_at: '2026-08-13T00:30:00.000Z'
+    collected_at: '2026-08-13T09:46:41.947Z'
+    score: 80
+    reason_code: ai_agent_plugin
+    slot: preference
+  - id: a5df73e83e4ad606
+    url: >-
+      https://gigazine.net/news/20260812&#45;anthropic&#45;claude&#45;riemann&#45;hypothesis/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: >-
+      AIに「そのまま続けろ！」「自分を信じろ！」と応援し続けることが人間の役目、Anthropicが未公開のClaudeによるリーマン予想解決の試みを公開
+    summary: >-
+      AI開発企業のAnthropicが、未公開の研究版Claudeに数学上の超難問「リーマン予想」の解決を試みさせたところ、リーマン予想そのものの証明には失敗したものの、関連する問題で従来の記録を大幅に更新する結果を得たと発表しました。この研究では人間が数学的なアイデアをほとんど与えておらず、Claudeに「そのまま続けろ」「自分を信じろ」と繰り返し励ますことが人間側の主な役割だったという異例の経緯も明かされています。続きを読む...
+    published_at: '2026-08-12T11:00:00.000Z'
+    collected_at: '2026-08-13T09:46:41.948Z'
+    score: 80
+    reason_code: ai_research_encouragement
+    slot: preference
+  - id: fce6c2d882e594e3
+    url: https://news.web.nhk/newsweb/na/nd-20260813de43577
+    source_id: nhk_main
+    category: weather
+    fixed: false
+    title: 【ライブ配信中】関東では局地的に猛烈な雨 危険警報の地域も
+    summary: >-
+      湿った空気や上空の寒気の影響で関東では大気の状態が非常に不安定になり、局地的に猛烈な雨が降っていて、千葉県には「記録的短時間大雨」の気象防災速報が発表されました。
+      関東の各地でレベル4危険警報が出さ…
+    published_at: '2026-08-13T09:17:05.000Z'
+    collected_at: '2026-08-13T09:46:35.252Z'
+    score: 70
+    reason_code: weather_alert
+    slot: preference
+  - id: 24b61a1efc3d6461
+    url: >-
+      https://www.lifehacker.jp/article/2509android-is-making-it-more-difficult-to-sideload-apps-pai/
+    source_id: hatebu_hot
+    category: dev
+    fixed: false
+    title: >-
+      Android&#x306E;&#x300C;&#x81EA;&#x7531;&#x300D;&#x304C;&#x7D42;&#x308F;&#x308B;&#x3002;2027&#x5E74;&#x3001;&#x91CE;&#x826F;&#x30A2;&#x30D7;&#x30EA;&#x304C;&#x5165;&#x308C;&#x3089;&#x308C;&#x306A;&#x30
+    summary: >-
+      Android&#x3068;iOS&#x3001;&#x305D;&#x308C;&#x305E;&#x308C;&#x306B;&#x9577;&#x6240;&#x3068;&#x77ED;&#x6240;&#x304C;&#x3042;&#x308B;&#x306E;&#x306F;&#x3054;&#x5B58;&#x77E5;&#x306E;&#x901A;&#x308A;&#x3002;
+      &#x3053;&#x308C;&#x307E;&#x3067;Android&#x304C;Apple&#x306E;&#x30D7;&#x30E9;&#x30C3;&#x30C8;&#x30
+    published_at: null
+    collected_at: '2026-08-13T09:46:36.468Z'
+    score: 70
+    reason_code: android_privacy
+    slot: preference
+  - id: fcd39a6edfe7aa50
+    url: https://automaton-media.com/articles/newsjp/20260813-459971/
+    source_id: automaton
+    category: ai
+    fixed: false
+    title: Twitchが、配信コンテンツを「Amazonの生成AIモデルに学習させる」設定を追加して波紋広がる。デフォルトでは「オン」
+    summary: Twitchにて日本時間8月13日、ユーザー設定に「生成AIのトレーニング」に関する項目を新たに追加した。
+    published_at: '2026-08-13T01:37:20.000Z'
+    collected_at: '2026-08-13T09:46:38.197Z'
+    score: 70
+    reason_code: ai_training_twitch
+    slot: preference
+  - id: 853c8515b6190173
+    url: >-
+      https://automaton-media.com/articles/newsjp/isles-of-innsmouth-20260812-459870/
+    source_id: automaton
+    category: construction
+    fixed: false
+    title: ラヴクラフトホラー街づくりゲーム『Isles of Innsmouth』発表。島を拡大＆建物を置いて旧き神々を鎮める“のんびり不気味”建設
+    summary: >-
+      Zugalu Entertainmentは8月11日、Crimson Herring Studiosが手がける箱庭都市建設ゲーム『Isles of
+      Innsmouth』を発表した。本作はラヴクラフト作品に影響を受けたホラーの世界観で繰り広げられる、街づくりストラテジーゲームだ。
+    published_at: '2026-08-12T08:57:40.000Z'
+    collected_at: '2026-08-13T09:46:38.197Z'
+    score: 70
+    reason_code: city_builder
+    slot: preference
+  - id: deb9695d24eaf925
+    url: https://automaton-media.com/articles/newsjp/20260812-459815/
+    source_id: automaton
+    category: dev
+    fixed: false
+    title: Steam Deckを「ゲームボーイ風」に魔改造する人現る。小型化しすぎた結果、スティックとパッドがかろうじて面影を残す
+    summary: あるユーザーが、Steam Deckをゲームボーイ風の筐体に納める改造を施したとして注目を集めている。
+    published_at: '2026-08-12T03:16:45.000Z'
+    collected_at: '2026-08-13T09:46:38.198Z'
+    score: 70
+    reason_code: hardware_mod
+    slot: preference
+  - id: b374931051ef0fce
+    url: https://www.4gamer.net/games/007/G100712/20260812027/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: 「めっちゃカメレオン」，発売から2か月で売上が2000万本を達成。ポストにはお礼の言葉とともに，謎の文字列も
+    summary: >-
+      個人ゲーム開発者のLEMORION氏は本日，PC用ソフト「めっちゃカメレオン」の売上が2000万本を突破したと発表した。本作は，自分の体にお絵かきして，カメレオンのように溶け込むかくれんぼゲームだ。2026年6月10日に発売されたので，2か月で2000万本を達成したことになる。
+    published_at: null
+    collected_at: '2026-08-13T09:46:39.252Z'
+    score: 70
+    reason_code: indie_success
+    slot: preference
+  - id: abea7810f6e97397
+    url: https://www.4gamer.net/games/032/G103211/20260811002/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: 「PoE」ファンが約2年半をかけて1人で開発。広大な夢の世界を冒険するローグライトアクションRPG「響き、夢境に」がSteamで本日発売
+    summary: >-
+      HotWaterStudioは本日（2026年8月11日），新作PC用ソフト「響き、夢境に」をSteamで発売した。本作は，すべての人々の夢が1つにつながった世界を冒険するローグライトアクションRPGだ。さまざまな「概念」をブロックのように組み合わせる，独特なビルド構築システムが特徴となっている。
+    published_at: null
+    collected_at: '2026-08-13T09:46:39.252Z'
+    score: 70
+    reason_code: indie_dev_story
+    slot: preference
+  - id: 141d6328cd01b66a
+    url: https://www.itmedia.co.jp/news/article/2608/13/2000000521/
+    source_id: itmedia_news
+    category: ai
+    fixed: false
+    title: 「Made by Google」イベントで発表したこと　手話のリアルタイムテキスト化や「Health Guardian」など
+    summary: >-
+      Googleは新製品発表イベント「Made by Google 2026」で、「Pixel
+      11」シリーズなどの最新ハードウェアに加え、手話をテキスト化する「SL2T」機能や、既存センサーのデータで健康状態を推定する「Health
+      Guardian」などを発表した。
+    published_at: '2026-08-13T01:14:35.000Z'
+    collected_at: '2026-08-13T09:46:40.008Z'
+    score: 70
+    reason_code: google_ai_event
+    slot: preference
+  - id: 0f3953ab21675605
+    url: https://www.itmedia.co.jp/news/article/2608/12/2000000507/
+    source_id: itmedia_news
+    category: game
+    fixed: false
+    title: 「めっちゃカメレオン」2000万本突破　日本の2人が開発、発売から2カ月で
+    summary: 個人開発として異次元とも言える“超大ヒット”が続いている。
+    published_at: '2026-08-12T06:05:08.000Z'
+    collected_at: '2026-08-13T09:46:40.008Z'
+    score: 70
+    reason_code: indie_game_success
+    slot: preference
+  - id: e28a39c5ef7a119f
+    url: https://www.itmedia.co.jp/news/article/2608/12/2000000497/
+    source_id: itmedia_news
+    category: ai
+    fixed: false
+    title: Anthropic、「Claude」で生成したテキストに“見えない透かし”　日本を含むグローバルに適用へ
+    summary: >-
+      Anthropicは、「Claude」が生成するテキストに電子透かしを、対応ファイルにC2PA準拠の署名付きメタデータを付与する方針を発表した。8月2日に適用開始された「EU
+      AI
+      Act」の透明性義務に伴う措置だが、日本を含む全世界のモデルとサービスに適用される。人間には不可視の透かし等により、AI処理の有無や改ざん検出を可能にする。
+    published_at: '2026-08-11T22:16:45.000Z'
+    collected_at: '2026-08-13T09:46:40.008Z'
+    score: 70
+    reason_code: ai_watermark
+    slot: preference
+  - id: 123a38d686188738
+    url: >-
+      https://gigazine.net/news/20260813&#45;mistral&#45;ai&#45;third&#45;party&#45;open&#45;model/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: Mistral AIのプラットフォームでサードパーティー製オープンモデルが選択可能に、まずはZ.aiのGLM&#45;5.2から
+    summary: >-
+      フランスのAI企業・Mistral
+      AIが自社プラットフォームの「Vibe」などで、自社AIモデルだけでなくサードパーティー製のオープンモデルもサポートすることを明らかにしました。続きを読む...
+    published_at: '2026-08-13T08:40:00.000Z'
+    collected_at: '2026-08-13T09:46:41.947Z'
+    score: 70
+    reason_code: ai_platform_thirdparty
+    slot: preference
+  - id: 03007cfd3012b173
+    url: https://gigazine.net/news/20260813&#45;deepseek&#45;v4&#45;pro&#45;0813/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: 中華AIスタートアップのDeepSeekが「DeepSeek V4 Pro 0813」をひっそりとリリース
+    summary: >-
+      中国のAIスタートアップであるDeepSeekが、最新AIモデルの「DeepSeek V4 Pro
+      0813」をひっそりとリリースしました。続きを読む...
+    published_at: '2026-08-13T06:25:00.000Z'
+    collected_at: '2026-08-13T09:46:41.947Z'
+    score: 70
+    reason_code: ai_model_release
+    slot: preference
+  - id: 02f7fea7baaa7bb8
+    url: https://gigazine.net/news/20260813&#45;google&#45;sl2t/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: Googleが手話をテキストに変換するAIモデルをPixel 11に搭載
+    summary: >-
+      Google
+      DeepMindの手話チームが、手話の映像を文字に変換する「多言語手話・テキスト変換(sign-language-to-text：SL2T)翻訳モデル」を発表しました。2026年8月20日発売のPixel
+      11で、手話で文字を入力できるようになる予定です。続きを読む...
+    published_at: '2026-08-13T02:32:00.000Z'
+    collected_at: '2026-08-13T09:46:41.947Z'
+    score: 70
+    reason_code: ai_accessibility
+    slot: preference
+  - id: 5e7393297bac00cf
+    url: https://news.web.nhk/newsweb/na/nd-20260813de43703
+    source_id: nhk_main
+    category: weather
+    fixed: false
+    title: 千葉県北西部と南部 線状降水帯発生 災害危険度高まる
+    summary: 気象庁は13日午後5時58分、千葉県の北西部と南部に「線状降水帯発生」の気象防災速報を発表しました。
+    published_at: '2026-08-13T09:16:11.000Z'
+    collected_at: '2026-08-13T09:46:35.252Z'
+    score: 60
+    reason_code: weather_alert
+    slot: preference
+  - id: 1f89af6ac3133b4a
+    url: https://zenn.dev/akari1106/articles/9d2abbc63a4abb
+    source_id: hatebu_hot
+    category: dev
+    fixed: false
+    title: >-
+      Cloudflare&#x306F;16&#x5E74;&#x9593;&#x305A;&#x3063;&#x3068;&#x540C;&#x3058;&#x3053;&#x3068;&#x3092;&#x3057;&#x3066;&#x3044;&#x308B;&#x3002;&#x300C;&#x901A;&#x308A;&#x9053;&#x3092;&#x652F;&#x914D;&#x3
+    summary: >-
+      &#x306F;&#x3058;&#x3081;&#x306B; Cloudflare
+      OS&#x306E;&#x8A71;&#x3092;3&#x672C;&#x66F8;&#x304D;&#x307E;&#x3057;&#x305F;&#x3002;&#x30ED;&#x30FC;&#x30AB;&#x30EB;LLM&#x3067;&#x4E09;&#x76EE;&#x4E26;&#x3079;&#x306B;5&#x30E9;&#x30A6;&#x30F3;&#x30C9;&#x304B;&#x3051;&#x305F;&#x596E;&#x95D8;&#x8A18;&#x3001;&
+    published_at: null
+    collected_at: '2026-08-13T09:46:36.468Z'
+    score: 60
+    reason_code: cloudflare_analysis
+    slot: preference
+  - id: b35a410752d7a72d
+    url: https://pc.watch.impress.co.jp/docs/news/2132491.html
+    source_id: hatebu_hot
+    category: dev
+    fixed: false
+    title: >-
+      HDD&#x304C;&#x5BB9;&#x91CF;2&#x6841;&#x53F0;&#x3067;&#x3082;&#x304C;&#x3044;&#x3066;&#x3044;&#x308B;&#x9593;&#x3001;SSD&#x306F;512TB&#x306B;&#x5230;&#x9054;&#x3057;&#x305F;
+    summary: ''
+    published_at: null
+    collected_at: '2026-08-13T09:46:36.468Z'
+    score: 60
+    reason_code: storage_tech
+    slot: preference
+  - id: 3a3c22dbd998b400
+    url: https://automaton-media.com/articles/newsjp/20260812-459909/
+    source_id: hatebu_hot
+    category: game
+    fixed: false
+    title: >-
+      &#x30B2;&#x30FC;&#x30E0;&#x958B;&#x767A;&#x8005;&#x304C;&#x300C;&#x201C;&#x9375;&#x5C4B;&#x201D;&#x3067;&#x8CB7;&#x3046;&#x3050;&#x3089;&#x3044;&#x306A;&#x3089;&#x6D77;&#x8CCA;&#x7248;&#x3067;&#x904A;
+    summary: >-
+      dicehit
+      games&#x306F;8&#x6708;11&#x65E5;&#x3001;X&#x306B;&#x3066;&#x300C;&#x51FA;&#x6240;&#x4E0D;&#x660E;&#x306A;&#x30D7;&#x30ED;&#x30C0;&#x30AF;&#x30C8;&#x30AD;&#x30FC;&#x3092;&#x8CA9;&#x58F2;&#x3059;&#x308B;&#x696D;&#x8005;&#x304B;&#x3089;&#x30B2;&#x30FC;&#x30E0;&#x3092;&#x8CB7;&#x3046;&#x304F;&#x
+    published_at: null
+    collected_at: '2026-08-13T09:46:36.468Z'
+    score: 60
+    reason_code: game_dev_culture
+    slot: preference
+  - id: 21d1567dfa43fe37
+    url: https://note.com/yamadahifumi/n/n266f215d0517
+    source_id: hatebu_hot
+    category: other
+    fixed: false
+    title: >-
+      &#x4E09;&#x5B85;&#x9999;&#x5E06;&#x306E;&#x914D;&#x5E03;&#x3059;&#x308B;&#x300C;&#x6587;&#x5B66;&#x30B5;&#x30D7;&#x30EA;&#x300D;&#x306F;&#x5FC5;&#x8981;&#x306A;&#x3044;&#xFF5C;&#x30E4;&#x30DE;&#x30C0;
+    summary: >-
+      &#x8A55;&#x8AD6;&#x5BB6;&#x306E;&#x4E09;&#x5B85;&#x9999;&#x5E06;&#x306E;&#x300C;&#x6279;&#x8A55;&#x306E;&#x6587;&#x4F53;&#x3092;&#x3072;&#x3089;&#x304D;&#x305F;&#x3044;&#x300D;&#x3068;&#x3044;&#x3046;&#x6587;&#x7AE0;&#x3092;&#x8AAD;&#x3093;&#x3060;&#x3002;&#x60F3;&#x50CF;&#x3057;&#x3066;&#x3044;&#x3
+    published_at: null
+    collected_at: '2026-08-13T09:46:36.468Z'
+    score: 20
+    reason_code: criticism
+    slot: explore
+  - id: 29abd3e87d13a38e
+    url: https://www.tokyo-np.co.jp/article/508144
+    source_id: hatebu_hot
+    category: other
+    fixed: false
+    title: >-
+      &#x300C;#&#x56FD;&#x65D7;&#x640D;&#x58CA;&#x30C1;&#x30E3;&#x30EC;&#x30F3;&#x30B8;&#x300D;&#x8A98;&#x767A;&#x3057;&#x305F;&#x9AD8;&#x5E02;&#x9996;&#x76F8;&#x809D;&#x3044;&#x308A;&#x65B0;&#x6CD5;&#x65BD
+    summary: >-
+      &#x65E5;&#x672C;&#x56FD;&#x65D7;&#x3092;&#x50B7;&#x3064;&#x3051;&#x308B;&#x884C;&#x70BA;&#x3092;&#x7F70;&#x3059;&#x308B;&#x65E5;&#x672C;&#x56FD;&#x65D7;&#x640D;&#x58CA;&#x7F6A;&#x6CD5;&#x304C;13&#x65E5;&#x3001;&#x65BD;&#x884C;&#x3055;&#x308C;&#x305F;&#x3002;&#x540C;&#x6CD5;&#x306E;&#x51E6;&#x7F70;&#
+    published_at: null
+    collected_at: '2026-08-13T09:46:36.468Z'
+    score: 20
+    reason_code: political_news
+    slot: explore
+  - id: 5857eefd2ddfaf31
+    url: https://www.4gamer.net/games/898/G089831/20260812041/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: >-
+      「アケアカ2 リッジレーサー」は初セール。ナムコの「アケアカ」名作15タイトルが30％オフに。「NAMCO LEGENDARY 2026
+      セール」を開催中
+    summary: >-
+      ハムスターは本日，「アーケードアーカイブス」シリーズのナムコタイトルが対象の「NAMCOLEGENDARY2026セール」を開始した。初セールとなる「アーケードアーカイブス2リッジレーサー」をはじめ，「ギャラガ」「ワルキューレの伝説」「源平討魔伝」など15タイトルを30％オフで販売する。期間は8月26日23：59までだ。
+    published_at: null
+    collected_at: '2026-08-13T09:46:39.252Z'
+    score: 20
+    reason_code: sale_info
+    slot: explore
