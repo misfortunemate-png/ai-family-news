@@ -1,6 +1,226 @@
 date: '2026-08-13'
-count: 28
+count: 30
 candidates:
+  - id: 8a2ece2acd09ec51
+    url: https://news.web.nhk/newsweb/na/nd-20260813de43895
+    source_id: nhk_main
+    category: world
+    fixed: false
+    title: 千葉県で記録的な大雨 災害の危険迫る（23：30）
+    summary: >-
+      気象庁によりますとレーダーによる解析で、午後11時半までの1時間に千葉県の千葉市付近と茂原市付近、大網白里市付近で、いずれもおよそ120ミリの猛烈な雨が、東金市付近と、白子町付近でいずれもおよそ100…
+    published_at: '2026-08-13T14:52:37.000Z'
+    collected_at: '2026-08-13T14:58:31.464Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 5b9b73b3ac4bdbb1
+    url: https://news.web.nhk/newsweb/na/nd-20260813de43893
+    source_id: nhk_main
+    category: world
+    fixed: false
+    title: 千葉 茂原市付近で記録的な大雨 災害の危険迫る（23：20）
+    summary: >-
+      気象庁によりますとレーダーによる解析で、午後11時20分までの1時間に千葉県茂原市付近でおよそ100ミリの猛烈な雨が降ったとみられます。
+      災害の危険が迫っていることから、気象庁は「記録的短時間大雨」…
+    published_at: '2026-08-13T14:37:27.000Z'
+    collected_at: '2026-08-13T14:58:31.464Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 8dfa2dfa61c0b875
+    url: https://www.4gamer.net/games/199/G019924/20260813047/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: 「FFXIV」，公式PvP大会「クリスタルコンフリクト」の予選を8月22日から30日にかけて実施。全試合をYouTubeでライブ配信
+    summary: >-
+      スクウェア・エニックスは本日（2026年8月13日），MMORPG「ファイナルファンタジーXIV」の公式PvP大会「クリスタルコンフリクトリージョンチャンピオンシップ2026JapanPoweredbyLogicoolG&#8482;」の予選トーナメントを8月22日，23日，29日，30日に開催し，全試合をYouTubeでライブ配信すると発表した。
+    published_at: '2026-08-13T14:20:42.000Z'
+    collected_at: '2026-08-13T14:58:33.603Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 2e6faab13a8612f9
+    url: https://automaton-media.com/articles/newsjp/20260813-460093/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: 『ブルーアーカイブ』グローバル版、なんと「12万2046名」のアカウントを永久BANに。仕様悪用ユーザーを“一斉検挙”
+    summary: >-
+      NEXON
+      Koreaは8月13日、運営中の『ブルーアーカイブ』グローバル版にて12万2046名のアカウント利用を永久停止したと発表した。これらのアカウントは、仕様を悪用して不当な優位性を得ていたとのこと。
+    published_at: '2026-08-13T14:11:34.000Z'
+    collected_at: '2026-08-13T14:58:32.738Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 456c9de579af0c00
+    url: https://news.web.nhk/newsweb/na/nd-20260813de43852
+    source_id: nhk_main
+    category: world
+    fixed: false
+    title: 【動画】千葉 市川でバス立往生（午後6時前）
+    summary: >-
+      13日午後6時前、千葉県市川市鬼高3丁目の交差点周辺で撮影された映像です。
+      歩行者のひざの上くらいの高さまで道路が水につかり、誘導されながら横断している様子が見られます。 周辺ではバスなど複数の車…
+    published_at: '2026-08-13T14:01:59.000Z'
+    collected_at: '2026-08-13T14:58:31.465Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 3f0f44d43e717871
+    url: https://gigazine.net/news/20260813&#45;traffic&#45;bot&#45;percent/
+    source_id: gigazine
+    category: other
+    fixed: false
+    title: ウェブサイトへのアクセスの99％超がボットに、人間1回に対して214回もページを読み込むAIスクレイパーとの攻防
+    summary: >-
+      寄付者情報データベース「PatronView」を運営するニック・グレイ氏が、ウェブサイトに押し寄せるAIクローラーやスクレイパーと約1年間にわたって続けてきた攻防を公開しました。サーバーが配信したページ数とアクセス解析の数字を比べると、「人間が1回ページ読み込んだ」と記録される間に、AIによるページ読み込みがおよそ214回発生していたとのことです。続きを読む...
+    published_at: '2026-08-13T14:00:00.000Z'
+    collected_at: '2026-08-13T14:58:35.473Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 6e1323ceb4a7e3c4
+    url: https://automaton-media.com/articles/newsjp/20260813-460085/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: >-
+      Nintendo Switch版『ポケモン
+      ファイアレッド・リーフグリーン』の「ポケモンホーム」対応は今年10月、ただし不正ポケモンなどは“出禁”に。“任意コード実行”などに対策か
+    summary: >-
+      株式会社ポケモンは8月13日、『ポケットモンスター ファイアレッド・リーフグリーン』のNintendo
+      Switch移植版について、今年10月に「Pokémon HOME」に対応することを発表。
+    published_at: '2026-08-13T13:46:23.000Z'
+    collected_at: '2026-08-13T14:58:32.738Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 7a18c8a2f5f504bc
+    url: https://gigazine.net/news/20260813&#45;pixel&#45;11&#45;camera&#45;look/
+    source_id: gigazine
+    category: other
+    fixed: false
+    title: Pixel 11は新機能「カメラスタイル」で何を実現したかったのかカメラチームリーダーが解説
+    summary: >-
+      スマートフォンで写真を撮ると、空は青く、顔は明るく鮮明に、夜景もノイズは少なく被写体が明るく写って、もはやこれといった問題はないように思えますが、実際にはスマートフォンのカメラの開発者には大きな難題があるとのことで、「Pixel
+      11」シリーズに新機能の「カメラスタイル」を搭載した理由について、Google
+      Pixelのカメラチームを率いるアイザック・レイノルズ氏が説明を行っています。続きを読む...
+    published_at: '2026-08-13T13:46:00.000Z'
+    collected_at: '2026-08-13T14:58:35.473Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: febbea88338e4974
+    url: https://www.4gamer.net/games/033/G103303/20260813034/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: >-
+      「CloverPit」，Switch2/PS5/Switch/PS4版が本日発売。100万本超を売り上げた悪魔的ローグライトスロットに全アップデートを収録
+    summary: >-
+      FutureFriendsGamesは本日，「CloverPit」のSwitch2/PS5/Switch/PS4版を発売した。プレイヤーは独房に閉じ込められ，スロットを回して借金の返済を目指す。150種以上のアイテムを組み合わせて戦略を構築でき，これまでのアップデート内容に加え，返済期限の要求額を倍増させる「HardmodeUpdate」も収録する。
+    published_at: '2026-08-13T13:30:00.000Z'
+    collected_at: '2026-08-13T14:58:33.603Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 1104b7ef232a8812
+    url: https://www.4gamer.net/games/991/G999105/20260813046/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: 期間限定だった店舗「ルイーダの酒場 in OSAKA」，8月25日をもって常設化へ。大阪限定メニューも登場予定で，予約受付もスタート
+    summary: >-
+      ニュートンは本日（2026年8月13日），スクウェア・エニックスのRPG「ドラゴンクエスト」とパセラリゾーツのコラボ店「LUIDA'SBARinOSAKA」を，8月25日に大阪・なんばで常設店舗としてオープンする。予約受付は8月13日18：00から開始されている。
+    published_at: '2026-08-13T13:28:07.000Z'
+    collected_at: '2026-08-13T14:58:33.603Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: b6e562ea1da745f5
+    url: https://automaton-media.com/articles/newsjp/20260813-460079/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: 「ポケモンバンク」来年2月26日にとうとうサービス終了へ。ニンテンドー3DSのポケモン預かりサービス、約13年の歴史に幕
+    summary: >-
+      株式会社ポケモンは8月13日、ニンテンドー3DS向けのポケモンお預かりサービス「ポケモンバンク」のサービスを、2027年2月26日に終了すると発表した。
+    published_at: '2026-08-13T13:15:27.000Z'
+    collected_at: '2026-08-13T14:58:32.739Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 9db76f62570c4701
+    url: https://www.4gamer.net/games/032/G103287/20260813027/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: 未来を垣間見て書き換えるシネマティックSFアドベンチャーRPG「.curator」が発表。「オルタード・カーボン」原作者が手掛ける新作ゲーム
+    summary: >-
+      STRTLGamesは2026年8月13日，新作「.curator」を発表した。発売日や価格はいずれも未定。本作は，未来を予測する技術で起こり得る未来を垣間見て，その先に起きる出来事を書き換えていくエピソード形式のシネマティックSFアドベンチャーRPGだ。
+    published_at: '2026-08-13T13:00:00.000Z'
+    collected_at: '2026-08-13T14:58:33.603Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 8c4731f6a56af50b
+    url: https://www.4gamer.net/games/183/G018339/20260813045/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: PC版「黒い砂漠」，新地域「エダニア：内郭」を実装。リアルイベント「黒い砂漠 冒険者感謝祭 2026」の開催が決定し，応募受付がスタート
+    summary: >-
+      PearlAbyssJPは本日（2026年8月13日），PC版「黒い砂漠」に新地域「エダニア：内郭」を実装するアップデートを実施した。それに合わせて，新アクセサリー「エクレタ」「アペイロン」や新衣装「滅神の武具」など，多数の新要素が追加されている。
+    published_at: '2026-08-13T12:47:47.000Z'
+    collected_at: '2026-08-13T14:58:33.603Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 4f49810b5b88b49e
+    url: https://news.web.nhk/newsweb/na/nd-20260813de43816
+    source_id: nhk_main
+    category: world
+    fixed: false
+    title: 【動画】千葉市中央区で道路から水吹き上がる（午後7時ごろ）
+    summary: >-
+      13日午後7時ごろ、千葉市中央区栄町で撮影された映像です。
+      道路から水が噴き上がっていて、近くにあるビルを超える高さにまで達しているのが確認できます。 撮影した男性によりますと、現場にはマンホール…
+    published_at: '2026-08-13T12:41:00.000Z'
+    collected_at: '2026-08-13T14:58:31.465Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 6d7019cce25e8a5a
+    url: https://news.web.nhk/newsweb/na/nb-7000087351
+    source_id: hatebu_hot
+    category: other
+    fixed: false
+    title: プーチン大統領 択捉訪問 小泉悠氏“日本に対するけん制” | NHKニュース
+    summary: >-
+      ロシアのプーチン大統領が北方領土の択捉島を訪問したねらいについて、ロシア情勢に詳しい東京大学先端科学技術研究センターの小泉悠准教授は「ロシア国内では来月、下院議員選挙が控えていて、強硬姿勢をとってみせ…
+    published_at: '2026-08-13T12:36:47.000Z'
+    collected_at: '2026-08-13T14:58:32.450Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
   - id: 33c0e7966ae45ef6
     url: https://news.web.nhk/newsweb/na/nd-20260813de43729
     source_id: nhk_main
@@ -85,6 +305,21 @@ candidates:
     score: null
     reason_code: dry_run
     slot: preference
+  - id: 2f888a1e8811c205
+    url: https://www.bengo4.com/c_23/n_20782/
+    source_id: hatebu_hot
+    category: other
+    fixed: false
+    title: 「私の時間はとまったまま」デマと中傷に苦しんだ夢月ロア、150ページ超の書面につづった思い - 弁護士ドットコムニュース
+    summary: >-
+      VTuberグループ「にじさんじ」の夢月ロアさんが、「元所属ライバーをいじめて引退に追い込んだ」とする内容の配信で名誉を傷つけられたとして、配信者に損害賠償を求めた訴訟は、東京地裁で和解が成立した。和解は5月18日付。
+      運営会社のANYCOLORと、夢月さんの代理人をつとめる小沢一仁弁護士が8月13日、和解の内容を公...
+    published_at: '2026-08-13T11:45:23.000Z'
+    collected_at: '2026-08-13T14:58:32.449Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
   - id: ee4cf7b59e899d88
     url: https://www.itmedia.co.jp/news/article/2608/13/2000000528/
     source_id: itmedia_news
@@ -95,6 +330,19 @@ candidates:
       ニコニコ公式Xは8月12日、同サービスで収益化を始める際の条件などを紹介した。YouTubeが10日、広告収益を得るための新規参加条件を2027年2月から引き上げると発表しており、これを受けた投稿とみられる。
     published_at: '2026-08-13T11:18:44.000Z'
     collected_at: '2026-08-13T12:18:57.361Z'
+    image_url: null
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: e6b4d4efe6791d66
+    url: https://newsdig.tbs.co.jp/articles/-/2871489
+    source_id: hatebu_hot
+    category: other
+    fixed: false
+    title: 自民・鈴木宗男参院議員「いちいち反応するのは子どもじみている」　プーチン大統領の北方領土訪問めぐり | TBS NEWS DIG
+    summary: "ロシアのプーチン大統領が北方領土を訪問したことをめぐり、ロシアとの独自のパイプを持つ自民党の鈴木宗男参院議員は、「いちいち反応するのは逆に子どもじみている、稚拙だ」と話しました。自民党　鈴木宗男\_参…"
+    published_at: '2026-08-13T11:18:36.000Z'
+    collected_at: '2026-08-13T14:58:32.448Z'
     image_url: null
     score: null
     reason_code: dry_run
@@ -143,259 +391,50 @@ candidates:
     score: null
     reason_code: dry_run
     slot: preference
-  - id: fce6c2d882e594e3
-    url: https://news.web.nhk/newsweb/na/nd-20260813de43577
-    source_id: nhk_main
-    category: world
-    fixed: false
-    title: 【ライブ配信中】関東で局地的に猛烈な雨 危険警報の地域も
-    summary: >-
-      湿った空気や上空の寒気の影響で、関東では大気の状態が非常に不安定になり、特に千葉県では猛烈な雨が降っているほか、午後6時前には線状降水帯も発生しました。災害の危険度が急激に高まっています。
-      気象庁は、…
-    published_at: '2026-08-13T11:01:19.000Z'
-    collected_at: '2026-08-13T12:18:56.935Z'
-    image_url: null
-    score: null
-    reason_code: dry_run
-    slot: preference
-  - id: 5f506086808cc2c4
-    url: https://www.4gamer.net/games/991/G999106/20260812002/
-    source_id: fourgamer
-    category: game
-    fixed: false
-    title: わしゃがなTVの最新動画では，トランスフォーマー×ゾイド×ダイアクロンのコラボ商品「SHIELD-D-PRIME」の魅力に迫る
-    summary: >-
-      本日，声優の中村悠一さんと，フリーライターのマフィア梶田さんによるWeb番組「わしゃがなTV」の最新動画が公開された。今回は，中村さんが購入したタカラトミーの「SHIELD-D-PRIME」が登場。多彩なギミックを内蔵したその魅力を，中村さんと梶田さんが紹介している。
-    published_at: '2026-08-13T11:00:00.000Z'
-    collected_at: '2026-08-13T12:18:57.226Z'
-    image_url: null
-    score: null
-    reason_code: dry_run
-    slot: preference
-  - id: 8a61ac7d1d34a90a
-    url: https://www.4gamer.net/games/851/G085185/20260813039/
-    source_id: fourgamer
-    category: game
-    fixed: false
-    title: 「ありリベ」，アニメ「オーバーロード」とのコラボイベントを開始
-    summary: ''
-    published_at: '2026-08-13T10:59:27.000Z'
-    collected_at: '2026-08-13T12:18:57.226Z'
-    image_url: null
-    score: null
-    reason_code: dry_run
-    slot: preference
-  - id: c4b8892fd40b4f0f
-    url: https://gigazine.net/news/20260813&#45;headline/
-    source_id: gigazine
+  - id: e8951a2b00b8d6f5
+    url: https://kai-you.net/article/96249
+    source_id: hatebu_hot
     category: other
     fixed: false
-    title: 2026年8月13日のヘッドラインニュース
+    title: にじさんじ夢月ロアへの誹謗中傷を巡る訴訟で和解成立　2020年から活動休止が続く
     summary: >-
-      2026年7月3日(金)から大ヒット公開中の映画『トイ・ストーリー5』の累計興行収入が110億7396万9300円、観客動員数が792万5157人となり、歴代のピクサー・アニメーション映画史上最高を達成したことがわかりました。従来、ピクサーの最高興行収入は2003年公開の『ファインディング・ニモ』の110億円で、『トイ・ストーリー5』はその記録を公開から41日で塗り替えたことになります。続きを読む...
-    published_at: '2026-08-13T10:57:00.000Z'
-    collected_at: '2026-08-13T12:18:57.476Z'
+      VTuberグループ・にじさんじ所属の夢月ロアさんが外部配信者／VTuberに対して行っていた損害賠償請求訴訟について、8月13日（木）に和解が成立した。
+      にじさんじ運営のANYCOLOR株式会社、及び担当弁護士の小沢一仁さんから報告された。
+      本件について、被告にあたる外部配信者による「夢月ロアさんが特定のライバーに対し...
+    published_at: '2026-08-13T07:22:56.000Z'
+    collected_at: '2026-08-13T12:18:57.051Z'
     image_url: null
     score: null
     reason_code: dry_run
-    slot: preference
-  - id: c6abee930f80cba1
-    url: https://www.4gamer.net/games/999/G999905/20260813035/
-    source_id: fourgamer
-    category: game
-    fixed: false
-    title: >-
-      ネクソン，約3240億円の特別配当を発表。「ARC
-      Raiders」累計販売本数が1630万本を突破，「メイプルストーリー」フランチャイズは過去最高の四半期売上収益に
-    summary: >-
-      ネクソンは本日（2026年8月13日），総額約3240億円（約20億ドル）の特別配当を実施する計画を発表した。1株当たりの配当額は415円で，2026年9月に開催予定の取締役会で正式決議する予定だ。
-    published_at: '2026-08-13T10:54:52.000Z'
-    collected_at: '2026-08-13T12:18:57.226Z'
-    image_url: null
-    score: null
-    reason_code: dry_run
-    slot: preference
-  - id: 9faaa435c321b499
-    url: https://www.4gamer.net/games/476/G047609/20260813038/
-    source_id: fourgamer
-    category: game
-    fixed: false
-    title: 「プロセカ」，新たなリズムゲーム楽曲「空想フォレスト」を実装
-    summary: ''
-    published_at: '2026-08-13T10:53:31.000Z'
-    collected_at: '2026-08-13T12:18:57.226Z'
-    image_url: null
-    score: null
-    reason_code: dry_run
-    slot: preference
-  - id: 9c0415c4d13b8b15
-    url: https://www.4gamer.net/games/223/G022384/20260813037/
-    source_id: fourgamer
-    category: game
-    fixed: false
-    title: 「チェンクロ」ラッテが新登場するフェスを8月20日まで開催
-    summary: ''
-    published_at: '2026-08-13T10:49:35.000Z'
-    collected_at: '2026-08-13T12:18:57.226Z'
-    image_url: null
-    score: null
-    reason_code: dry_run
-    slot: preference
-  - id: ba6c66413b7f2d1c
-    url: https://news.web.nhk/newsweb/na/nd-20260813de43689
-    source_id: nhk_main
-    category: world
-    fixed: false
-    title: 高市首相「断じて許容できず」プーチン大統領の北方領土訪問に
-    summary: >-
-      ロシアのプーチン大統領が北方領土の択捉島を訪問したことについて、高市総理大臣は強く抗議するとした上で、固有の領土だとする日本の立場と相いれず、断じて許容できないと強調しました。また、「中長期的な関係回…
-    published_at: '2026-08-13T10:09:01.000Z'
-    collected_at: '2026-08-13T12:18:56.935Z'
-    image_url: null
-    score: null
-    reason_code: dry_run
-    slot: preference
-  - id: aa5e5f91bec465a3
-    url: >-
-      https://gigazine.net/news/20260813&#45;ai&#45;erase&#45;female&#45;characters&#45;kids&#45;stories/
-    source_id: gigazine
+    slot: explore
+  - id: 9168aff057dc4ae0
+    url: https://anond.hatelabo.jp/20260813152625
+    source_id: hatebu_hot
     category: other
     fixed: false
-    title: AIモデルに子ども向けの動物物語を作らせると女性キャラをほぼ完全に排除してしまう
+    title: 結婚して良かったのだろうか
     summary: >-
-      生成AIはさまざまなタスクを自動化するだけでなく、生徒の学力に合わせてパーソナライズした教材を作成したり、子どもの好みに合った絵本や物語を作ったりすることもできます。ところが、アメリカのワシントン大学の研究チームが行ったテストにより、AIモデルに子ども向けの動物物語を作らせると「女性(メス)のキャラをほとんど排除してしまう」ことが明らかになりました。続きを読む...
-    published_at: '2026-08-13T10:00:00.000Z'
-    collected_at: '2026-08-13T12:18:57.476Z'
-    image_url: null
-    score: null
-    reason_code: dry_run
-    slot: preference
-  - id: f481a32715ebfd6f
-    url: https://www.itmedia.co.jp/news/article/2608/13/2000000532/
-    source_id: itmedia_news
-    category: ai
-    fixed: false
-    title: ドコモ・バイクシェア、全エリアでサービス再開　全面停止から9日ぶり
-    summary: 8月4日の全面停止から9日ぶりに全エリアで利用可能になった。
-    published_at: '2026-08-13T09:47:38.000Z'
-    collected_at: '2026-08-13T12:18:57.361Z'
-    image_url: null
-    score: null
-    reason_code: dry_run
-    slot: preference
-  - id: 2cf9057f9e8e88b8
-    url: >-
-      https://automaton-media.com/articles/newsjp/discord-nitro-cod-mw4-20260813-460051/
-    source_id: automaton
-    category: game
-    fixed: false
-    title: '「Discord Nitro」加入者なら『CoD: MW4』“最速”先行ベータを無料プレイできる。予約購入してなくてもOK、ベータコード配布中'
-    summary: >-
-      「Discord Nitro」の加入者向けのNitro報酬として、『CoD:
-      MW4』の先行ベータテスト版コードが配布中だ。8月21日よりプレイ可能となっている。
-    published_at: '2026-08-13T09:43:31.000Z'
-    collected_at: '2026-08-13T12:18:57.095Z'
-    image_url: null
-    score: null
-    reason_code: dry_run
-    slot: preference
-  - id: ba2e951dec735ef1
-    url: https://automaton-media.com/articles/newsjp/switch-sale-20260813-460041/
-    source_id: automaton
-    category: game
-    fixed: false
-    title: >-
-      Nintendo Switch
-      2/Switch向けセールにまた大量追加、今日は約520本。『FF12』が70％オフの最安値、『ToHeart』『うたわれるもの』シリーズなどいろいろお安い
-    summary: >-
-      ニンテンドーeショップにて8月13日、本日もNintendo Switch 2/Nintendo
-      Switch向けタイトルのセールが開始されている。対象タイトルは約520本。
-    published_at: '2026-08-13T09:23:27.000Z'
-    collected_at: '2026-08-13T12:18:57.095Z'
-    image_url: null
-    score: null
-    reason_code: dry_run
-    slot: preference
-  - id: a002b46678a2d34f
-    url: https://news.web.nhk/newsweb/na/nd-20260813de43566
-    source_id: nhk_main
-    category: world
-    fixed: false
-    title: ロシア プーチン大統領 北方領土初めて訪問
-    summary: >-
-      ロシア大統領府は13日、プーチン大統領が北方領土の択捉島を訪問したと発表しました。プーチン氏の北方領土訪問は初めてで、ウクライナ侵攻を続けるロシアに制裁を科す日本を強くけん制するねらいがあるとみられま…
-    published_at: '2026-08-13T09:22:47.000Z'
-    collected_at: '2026-08-13T12:18:56.935Z'
-    image_url: null
-    score: null
-    reason_code: dry_run
-    slot: preference
-  - id: 0341a05383a73902
-    url: https://www.itmedia.co.jp/news/article/2608/12/2000000512/
-    source_id: itmedia_news
-    category: ai
-    fixed: false
-    title: RIZAP運営のECサイトに不正アクセス　カード情報含む個人情報が流出の可能性　サイトは一時閉鎖
-    summary: >-
-      RIZAPは8月10日、運営するスポーツ・アウトドア用品の通販サイト「APORITOオンラインストア」が不正アクセスを受け、利用者の個人情報とクレジットカード情報が外部へ流出した可能性があると発表した。サイトは5日から閉鎖しており、再開時期は未定。
-    published_at: '2026-08-12T09:19:37.000Z'
-    collected_at: '2026-08-13T12:18:57.361Z'
+      相談所で妻と結婚した。
+      そのときは妻に対して一生懸命で、こんな良い人はいないと（容姿でも、スペック的に自分が求める人としても、人柄も）思い、猛アプローチだった。
+      なんだろうな、妻から時折見える態度、「上から目線」が気になってる ・妻のほうが収入が高いこと ・僕は離婚歴があること ・僕には転職経験があり...
+    published_at: '2026-08-13T06:27:32.000Z'
+    collected_at: '2026-08-13T12:18:57.050Z'
     image_url: null
     score: null
     reason_code: dry_run
     slot: explore
-  - id: 2bd5b68720ea3b65
-    url: https://www.4gamer.net/games/900/G090070/20260812034/
-    source_id: fourgamer
-    category: game
+  - id: 52e95e334103fee9
+    url: https://www.itmedia.co.jp/news/article/2608/13/2000000526/
+    source_id: hatebu_hot
+    category: other
     fixed: false
-    title: 広大な自然をオフロード車で探検。最大4人協力ドライビングゲーム「over the hill」，10月14日にリリース決定
+    title: サービス終了した「Link！Like！ラブライブ！」開発元が破産　負債103億円超　東京商工リサーチ
     summary: >-
-      FunselektorLabsは2026年8月11日，StrelkaGamesとともに開発する新作タイトル「overthehill」を，10月14日にリリースすると発表した。本作は，1960年代から1980年代を代表するオフロード車で，広大な自然のなかを走るドライビングゲームだ。
-    published_at: '2026-08-12T08:51:12.000Z'
-    collected_at: '2026-08-13T12:18:57.226Z'
+      スマートフォンアプリ「Link！Like！ラブライブ！」を開発・運営していたオッドナンバー（東京都渋谷区）と関連2社が、東京地裁から8月5日付で破産開始決定を受けた。東京商工リサーチが8月13日に報じた。オッドナンバーの負債は、2024年12月期の決算時点で103億2078万円。関連2社の負債は調査中としている。
+      オッドナン...
+    published_at: '2026-08-13T05:51:07.000Z'
+    collected_at: '2026-08-13T12:18:57.050Z'
     image_url: null
     score: null
     reason_code: dry_run
     slot: explore
-  - id: 885d7f2387d6e7a9
-    url: https://www.itmedia.co.jp/news/article/2608/12/2000000506/
-    source_id: itmedia_news
-    category: ai
-    fixed: false
-    title: SpaceXAI、AIエージェント「Grok Bot」発表　クラウド環境で常時稼働、GrokやCursorの有料ユーザー向けに
-    summary: >-
-      米SpaceXAIは8月11日（現地時間）、常時稼働型のAIエージェント「Grok
-      Bot」（β版）を発表した。チャットでタスクを渡すとBotがアプリやWebサイトを操作して作業を進め、役割の異なる複数のBotを並列で働かせることもできる。
-    published_at: '2026-08-12T06:33:57.000Z'
-    collected_at: '2026-08-13T12:18:57.361Z'
-    image_url: null
-    score: null
-    reason_code: dry_run
-    slot: explore
-  - id: 3ab391941a7ea067
-    url: >-
-      https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json#2026-08-13T17:00:00+09:00
-    source_id: jma_tokyo
-    category: weather
-    fixed: true
-    title: 東京地方 天気 2026-08-13
-    summary: 雨 所により 雷を伴い 非常に 激しく 降る
-    published_at: '2026-08-13T08:00:00.000Z'
-    collected_at: '2026-08-13T12:18:57.585Z'
-    image_url: null
-    slot: fixed
-    score: null
-  - id: d0e717731cb96b19
-    url: >-
-      https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json#2026-08-14T00:00:00+09:00
-    source_id: jma_tokyo
-    category: weather
-    fixed: true
-    title: 東京地方 天気 2026-08-14
-    summary: 雨 昼前 から 時々 くもり 所により 雷を伴い 激しく 降る
-    published_at: '2026-08-13T15:00:00.000Z'
-    collected_at: '2026-08-13T12:18:57.585Z'
-    image_url: null
-    slot: fixed
-    score: null
