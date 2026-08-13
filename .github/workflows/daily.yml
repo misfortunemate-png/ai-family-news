@@ -1,0 +1,52 @@
+name: daily
+on:
+  schedule:
+    - cron: '0 21 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'LLM採点をスキップ'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - run: npm ci
+
+      - name: Collect
+        run: node scripts/collect.mjs
+
+      - name: Select
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+        run: node scripts/select.mjs
+
+      - name: Voice
+        if: ${{ !inputs.dry_run }}
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: node scripts/voice.mjs
+
+      - name: Commit & Push
+        run: |
+          git config user.name "family-news-bot"
+          git config user.email "bot@family-news"
+          DATE=$(date -u +%Y-%m-%d)
+          ITEMS=$(cat data/items/${DATE}.jsonl 2>/dev/null | wc -l || echo 0)
+          CANDS=$(grep -c 'id:' data/candidates/${DATE}.yaml 2>/dev/null || echo 0)
+          git add data/ logs/
+          git diff --cached --quiet || git commit -m "[daily] ${DATE} 収集${ITEMS}件 短冊${CANDS}件"
+          git pull --rebase
+          git push
