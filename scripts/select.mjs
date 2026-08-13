@@ -40,6 +40,24 @@ async function pastIds() {
   return ids;
 }
 
+// 採点オブジェクトの配列をJSONから再帰的に探す（最大深さ5）
+function findScoreArray(obj, depth = 0) {
+  if (depth > 5) return null;
+  if (Array.isArray(obj)) {
+    // 先頭要素に id があれば採点配列とみなす
+    if (obj.length > 0 && obj[0] != null && 'id' in obj[0]) return obj;
+    // 空配列は次の候補を探す
+  }
+  if (obj && typeof obj === 'object' && !Array.isArray(obj)) {
+    for (const val of Object.values(obj)) {
+      const found = findScoreArray(val, depth + 1);
+      if (found) return found;
+    }
+  }
+  return null;
+}
+
+// null を返したら呼び出し元で parse_fallback 縮退
 async function scoreWithLlm(items, preferences) {
   const payload = {
     model: MODEL,
@@ -78,10 +96,23 @@ async function scoreWithLlm(items, preferences) {
     cost_usd: costUsd,
   });
 
-  let content = json.choices?.[0]?.message?.content ?? '{}';
-  const parsed = JSON.parse(content);
-  // structured output may wrap in a key
-  const arr = Array.isArray(parsed) ? parsed : (parsed.items ?? parsed.scores ?? Object.values(parsed)[0] ?? []);
+  const rawContent = json.choices?.[0]?.message?.content ?? '';
+  // デバッグ用ログ（本番安定後に除去可）
+  console.log('[scoreWithLlm] raw content (先頭500字):', rawContent.slice(0, 500));
+
+  let parsed;
+  try {
+    parsed = JSON.parse(rawContent || '{}');
+  } catch (e) {
+    console.error('[scoreWithLlm] JSON.parse失敗:', e.message);
+    return null;
+  }
+
+  const arr = findScoreArray(parsed);
+  if (!arr) {
+    console.error('[scoreWithLlm] 採点配列が見つからない。parsed keys:', Object.keys(parsed ?? {}));
+    return null;
+  }
   return arr;
 }
 
@@ -137,11 +168,29 @@ async function main() {
     // LLM採点
     const preferences = await readFile('profile/preferences.md', 'utf8');
     const results = await scoreWithLlm(fresh, preferences);
-    const scoreMap = new Map(results.map(r => [r.id, r]));
-    scored = fresh.map(i => {
-      const r = scoreMap.get(i.id);
-      return { ...i, score: r?.score ?? 0, reason_code: r?.reason_code ?? 'unknown', category: r?.category ?? i.category };
-    });
+
+    if (results === null) {
+      // パース失敗 → dry-run縮退、全件 parse_fallback 記帳
+      console.warn('[select] LLM応答パース失敗。dry-run縮退で続行。');
+      for (const item of fresh) {
+        await appendJsonl(REJECTS_FILE, {
+          ts: new Date().toISOString(),
+          id: item.id,
+          source_id: item.source_id,
+          reason: 'parse_fallback',
+        });
+      }
+      const sorted = [...fresh].sort((a, b) =>
+        new Date(b.published_at ?? 0) - new Date(a.published_at ?? 0)
+      );
+      scored = sorted.map(i => ({ ...i, score: null, reason_code: 'parse_fallback', category: i.category }));
+    } else {
+      const scoreMap = new Map(results.map(r => [r.id, r]));
+      scored = fresh.map(i => {
+        const r = scoreMap.get(i.id);
+        return { ...i, score: r?.score ?? 0, reason_code: r?.reason_code ?? 'unknown', category: r?.category ?? i.category };
+      });
+    }
   }
 
   // preference枠: score降順上位27
