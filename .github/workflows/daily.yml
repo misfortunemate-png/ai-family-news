@@ -33,11 +33,8 @@ jobs:
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
         run: node scripts/select.mjs
 
-      - name: Voice
-        if: ${{ !inputs.dry_run }}
-        env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: node scripts/voice.mjs
+      - name: Cleanup
+        run: node scripts/cleanup.mjs
 
       - name: Commit & Push
         run: |
