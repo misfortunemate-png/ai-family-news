@@ -1,0 +1,404 @@
+date: '2026-08-13'
+count: 30
+candidates:
+  - id: ba2e951dec735ef1
+    url: https://automaton-media.com/articles/newsjp/switch-sale-20260813-460041/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: >-
+      Nintendo Switch
+      2/Switch向けセールにまた大量追加、今日は約520本。『FF12』が70％オフの最安値、『ToHeart』『うたわれるもの』シリーズなどいろいろお安い
+    summary: >-
+      ニンテンドーeショップにて8月13日、本日もNintendo Switch 2/Nintendo
+      Switch向けタイトルのセールが開始されている。対象タイトルは約520本。
+    published_at: '2026-08-13T09:23:27.000Z'
+    collected_at: '2026-08-13T09:32:28.992Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: a002b46678a2d34f
+    url: https://news.web.nhk/newsweb/na/nd-20260813de43566
+    source_id: nhk_main
+    category: world
+    fixed: false
+    title: ロシア プーチン大統領 北方領土初めて訪問
+    summary: >-
+      ロシア大統領府は13日、プーチン大統領が北方領土の択捉島を訪問したと発表しました。プーチン氏の北方領土訪問は初めてで、ウクライナ侵攻を続けるロシアに制裁を科す日本を強くけん制するねらいがあるとみられま…
+    published_at: '2026-08-13T09:22:47.000Z'
+    collected_at: '2026-08-13T09:32:28.470Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: fce6c2d882e594e3
+    url: https://news.web.nhk/newsweb/na/nd-20260813de43577
+    source_id: nhk_main
+    category: world
+    fixed: false
+    title: 【ライブ配信中】関東では局地的に猛烈な雨 危険警報の地域も
+    summary: >-
+      湿った空気や上空の寒気の影響で関東では大気の状態が非常に不安定になり、局地的に猛烈な雨が降っていて、千葉県には「記録的短時間大雨」の気象防災速報が発表されました。
+      関東の各地でレベル4危険警報が出さ…
+    published_at: '2026-08-13T09:17:05.000Z'
+    collected_at: '2026-08-13T09:32:28.470Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 5e7393297bac00cf
+    url: https://news.web.nhk/newsweb/na/nd-20260813de43703
+    source_id: nhk_main
+    category: world
+    fixed: false
+    title: 千葉県北西部と南部 線状降水帯発生 災害危険度高まる
+    summary: 気象庁は13日午後5時58分、千葉県の北西部と南部に「線状降水帯発生」の気象防災速報を発表しました。
+    published_at: '2026-08-13T09:16:11.000Z'
+    collected_at: '2026-08-13T09:32:28.470Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: f30be60390168de3
+    url: https://news.web.nhk/newsweb/na/nd-20260813de43708
+    source_id: nhk_main
+    category: world
+    fixed: false
+    title: 千葉 市川と松戸にレベル4大雨危険警報 増水などに厳重警戒を
+    summary: 銚子地方気象台は午後4時27分、千葉県市川市と松戸市にレベル4大雨危険警報を発表しました。 低い土地の浸水や河川の増水に厳重な警戒が必要です。
+    published_at: '2026-08-13T09:12:00.000Z'
+    collected_at: '2026-08-13T09:32:28.470Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 0a59eb705a35d1d5
+    url: https://www.itmedia.co.jp/news/article/2608/13/2000000531/
+    source_id: itmedia_news
+    category: ai
+    fixed: false
+    title: 東京ガス子会社、社員が飲酒後にPCを紛失　個人情報約2万件を保存
+    summary: >-
+      東京ガス子会社の東京ガスネットワークは8月13日、顧客の個人情報約2万件を保存した業務用PCを社員が紛失したと発表した。社員が同僚らと飲酒した後、電車で帰宅する途中にPCなどが入ったかばんを紛失したという。13日時点で、第三者による不正操作や個人情報の不正利用は確認していないとしている。
+    published_at: '2026-08-13T09:07:24.000Z'
+    collected_at: '2026-08-13T09:32:30.884Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 11bb32f5ccb0b538
+    url: https://news.web.nhk/newsweb/na/nd-20260813de43641
+    source_id: nhk_main
+    category: world
+    fixed: false
+    title: 秋篠宮さま パラグアイ訪問前記者会見で改正皇室典範にも言及
+    summary: >-
+      秋篠宮ご夫妻はパラグアイ訪問を前に記者会見に臨まれ、秋篠宮さまは改正皇室典範について問われると、「いろいろと考えるところはあります。どのように発信することができるかは非常に難しいと思います」などと述べ…
+    published_at: '2026-08-13T09:02:36.000Z'
+    collected_at: '2026-08-13T09:32:28.470Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: e6eaf31b8957617f
+    url: https://gigazine.net/news/20260813&#45;curry&#45;ex/
+    source_id: gigazine
+    category: other
+    fixed: false
+    title: ひとつ上の贅沢仕様レトルトカレー「咖喱屋カレー EX」試食レビュー
+    summary: >-
+      咖喱屋カレーはハウス食品の定番レトルトカレーシリーズです。新たに、ひとつ上の贅沢仕様カレーとして「咖喱屋カレー
+      EX」が2026年8月10日に登場しました。29種類のスパイスを使って家カレーでは再現しにくい本格的な味わいに仕上げたとのこと。中辛と辛口の2種類が同時に登場したので、両方とも食べてみました。続きを読む...
+    published_at: '2026-08-13T09:01:00.000Z'
+    collected_at: '2026-08-13T09:32:31.709Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: ba6c66413b7f2d1c
+    url: https://news.web.nhk/newsweb/na/nd-20260813de43689
+    source_id: nhk_main
+    category: world
+    fixed: false
+    title: 高市首相「断じて許容できず」プーチン大統領の北方領土訪問に
+    summary: >-
+      ロシアのプーチン大統領が北方領土の択捉島を訪問したことについて、高市総理大臣は強く抗議するとした上で、固有の領土だとする日本の立場と相いれず、断じて許容できないと強調しました。また、「中長期的な関係回…
+    published_at: '2026-08-13T08:57:04.000Z'
+    collected_at: '2026-08-13T09:32:28.470Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: aa4c84d54dc341d2
+    url: https://news.web.nhk/newsweb/na/nd-20260813de43635
+    source_id: nhk_main
+    category: world
+    fixed: false
+    title: 高校野球 東日大昌平が青森山田に勝利 3回戦へ
+    summary: 夏の全国高校野球、大会9日目の第3試合は福島の東日本国際大昌平高校が青森山田高校に6対2で勝って、3回戦に進みました。
+    published_at: '2026-08-13T08:46:44.000Z'
+    collected_at: '2026-08-13T09:32:28.470Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 123a38d686188738
+    url: >-
+      https://gigazine.net/news/20260813&#45;mistral&#45;ai&#45;third&#45;party&#45;open&#45;model/
+    source_id: gigazine
+    category: other
+    fixed: false
+    title: Mistral AIのプラットフォームでサードパーティー製オープンモデルが選択可能に、まずはZ.aiのGLM&#45;5.2から
+    summary: >-
+      フランスのAI企業・Mistral
+      AIが自社プラットフォームの「Vibe」などで、自社AIモデルだけでなくサードパーティー製のオープンモデルもサポートすることを明らかにしました。続きを読む...
+    published_at: '2026-08-13T08:40:00.000Z'
+    collected_at: '2026-08-13T09:32:31.709Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: a1c71371ec448466
+    url: https://gigazine.net/news/20260813&#45;lfm2&#45;5&#45;vl&#45;3b/
+    source_id: gigazine
+    category: other
+    fixed: false
+    title: スマホで動く視覚言語モデル「LFM2.5&#45;VL&#45;3B」が登場、日本語対応でUI認識やOCRに活用できる
+    summary: >-
+      アメリカに拠点を置くAI企業のLiquid
+      AIが視覚言語モデル「LFM2.5-VL-3B」を発表しました。LFM2.5-VL-3Bはスマートフォンでも動作することが確認されている軽量VLMで、文書のOCRやUIの認識などが可能。オープンモデルとして公開されており、無償でダウンロード可能です。続きを読む...
+    published_at: '2026-08-13T07:31:00.000Z'
+    collected_at: '2026-08-13T09:32:31.709Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 9d9575457accdae0
+    url: https://gigazine.net/news/20260813&#45;ai&#45;government&#45;cyberattack/
+    source_id: gigazine
+    category: other
+    fixed: false
+    title: AIエージェントで構築した「自律型ハッキングツール」がアジアの政府機関を攻撃、中国による台湾政府への攻撃か
+    summary: >-
+      中国のハッカーとみられる人物が、一般に公開されているAIツールを使って台湾の政府系ウェブサイトを侵害したことが報じられています。イスラエルのAI企業・Dreamの研究者によると、攻撃者はオープンソースのAIエージェントを使用して、連携のとれたサイバーチームのように振る舞う自律的なハッキングツールを構築したとのことです。続きを読む...
+    published_at: '2026-08-13T07:00:00.000Z'
+    collected_at: '2026-08-13T09:32:31.709Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 03007cfd3012b173
+    url: https://gigazine.net/news/20260813&#45;deepseek&#45;v4&#45;pro&#45;0813/
+    source_id: gigazine
+    category: other
+    fixed: false
+    title: 中華AIスタートアップのDeepSeekが「DeepSeek V4 Pro 0813」をひっそりとリリース
+    summary: >-
+      中国のAIスタートアップであるDeepSeekが、最新AIモデルの「DeepSeek V4 Pro
+      0813」をひっそりとリリースしました。続きを読む...
+    published_at: '2026-08-13T06:25:00.000Z'
+    collected_at: '2026-08-13T09:32:31.709Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: a6d9d1bf5ae09173
+    url: https://www.itmedia.co.jp/news/article/2608/13/2000000530/
+    source_id: itmedia_news
+    category: ai
+    fixed: false
+    title: LINE、送信後のメッセージを編集可能に　15分以内限定　秋以降は有料化
+    summary: まず「LINEラボ」で無償提供し、秋以降は有料の「LYPプレミアム」会員向け特典として正式に提供する予定だ。
+    published_at: '2026-08-13T06:21:45.000Z'
+    collected_at: '2026-08-13T09:32:30.884Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 538aaf759015b0ea
+    url: >-
+      https://gigazine.net/news/20260813&#45;claude&#45;ai&#45;watermark&#45;mad/
+    source_id: gigazine
+    category: other
+    fixed: false
+    title: ClaudeにAI透かしが追加されることで職場や学校でAIを使用していることがバレてしまうかもとユーザーが不満げ
+    summary: >-
+      EUで施行される法律に基づき、AnthropicはAIが生成するコンテンツに「透かし(ウォーターマーク)」を入れることを決定しました。この決定に、一部のAIユーザーが反発しています。続きを読む...
+    published_at: '2026-08-13T06:00:00.000Z'
+    collected_at: '2026-08-13T09:32:31.709Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: ad097dcc35cd02d8
+    url: >-
+      https://automaton-media.com/articles/newsjp/high-roller-penny-20260813-460026/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: “バニーガール付き”闇パチンコローグライク『High Roller Penny』発表。盤面を改造しスコアを稼ぎまくる、借金返済デスゲーム
+    summary: >-
+      Kniv Studioは8月13日、パチンコローグライクゲーム『High Roller
+      Penny』を発表した。本作はパチンコをモチーフにした、バニーガール付きのローグライクゲームだ。
+    published_at: '2026-08-13T05:44:29.000Z'
+    collected_at: '2026-08-13T09:32:28.992Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 948c613388adfed7
+    url: https://www.itmedia.co.jp/news/article/2608/13/2000000519/
+    source_id: itmedia_news
+    category: ai
+    fixed: false
+    title: 「Google Store 表参道」13日オープン　AIを使った“お土産作り”から限定グッズまで、店内を詳細レポート
+    summary: >-
+      米Googleは8月13日午後2時、直営店「Google Store
+      表参道」を東京・表参道の商業施設「東急プラザ表参道『オモカド』」にオープンする。AI体験スタジオ「Pixel
+      Studio」など3フロアで構成し、製品購入から店頭修理まで対応する。オープンに先立ち店内を取材した。
+    published_at: '2026-08-13T05:28:42.000Z'
+    collected_at: '2026-08-13T09:32:30.884Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 49452d63af3a86c4
+    url: https://automaton-media.com/articles/newsjp/20260813-460027/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: >-
+      高評価“暗殺回避”異変探しホラー『Targeted –10 Days』期間限定で無料配布中、Epic
+      Gamesストアにて。見逃せば死、殺意を見抜く10日間
+    summary: Glitchy Frame Studioは8月13日、Epic Gamesストアにて『Targeted –10 Days』の無料配布を開始した。
+    published_at: '2026-08-13T05:28:33.000Z'
+    collected_at: '2026-08-13T09:32:28.992Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 6250f77ed06223a6
+    url: >-
+      https://gigazine.net/news/20260813&#45;twitch&#45;amazon&#45;ai&#45;training/
+    source_id: gigazine
+    category: other
+    fixed: false
+    title: TwitchがコンテンツをAmazonのAIトレーニングに利用すると公表、利用されたくないユーザー向けにオプトアウト設定を追加
+    summary: >-
+      動画配信プラットフォームのTwitchが、コンテンツをAmazonのAIトレーニングに利用していく方針を明らかにしました。トレーニングに利用されたくないユーザー向けにオプトアウトするための設定が設けられています。続きを読む...
+    published_at: '2026-08-13T05:28:00.000Z'
+    collected_at: '2026-08-13T09:32:31.709Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: d3dd30b6bb0096d2
+    url: https://automaton-media.com/articles/newsjp/20260813-460018/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: ドット絵モンスター収集RPG『ドキモンクエスト』Steamにて8月25日に無料配布へ。定価1200円のゲーム
+    summary: Yano氏は8月12日、同氏が手がける『ドキモンクエスト』をSteamにて8月25日より無料配布すると発表した。
+    published_at: '2026-08-13T05:16:12.000Z'
+    collected_at: '2026-08-13T09:32:28.993Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: 3140b71360a5e178
+    url: >-
+      https://gigazine.net/news/20260813&#45;dolphins&#45;learn&#45;use&#45;shells&#45;hunting/
+    source_id: gigazine
+    category: other
+    fixed: false
+    title: イルカが「貝殻」を使って魚を捕らえる技術を母から子へ伝えている可能性
+    summary: >-
+      オーストラリア北東部のクイーンズランド州沖に生息するミナミハンドウイルカが、「貝殻を使って魚を捕らえる技術」を持っていることが初めて確認されました。さらに、「shelling(シェリング)」と呼ばれるこの狩りの技術が、イルカの母親から子どもに伝えられている可能性もあるとのことです。続きを読む...
+    published_at: '2026-08-13T05:00:00.000Z'
+    collected_at: '2026-08-13T09:32:31.709Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: debdf3d8c3a01cbb
+    url: https://www.itmedia.co.jp/news/article/2608/13/2000000527/
+    source_id: itmedia_news
+    category: ai
+    fixed: false
+    title: ヨネックス、公式ECショップに不正ログイン　氏名や住所、購入履歴が閲覧された恐れ　パスワード変更呼び掛け
+    summary: >-
+      ヨネックスは8月12日、公式オンラインショップで第三者による不正ログインが発生したと発表した。リスト型攻撃によるもので、利用者に対しパスワードの再設定を呼び掛けている。
+    published_at: '2026-08-13T04:51:04.000Z'
+    collected_at: '2026-08-13T09:32:30.884Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: de8c2473440cc207
+    url: https://automaton-media.com/articles/newsjp/20260812-459925/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: 『アークナイツ：エンドフィールド』リーノ実装で、“写真部”がますます賑わう。本格フォトモードでさながらチェキ会、推し活はかどる
+    summary: 新オペレーターであるリーノが注目を浴びる中、プレイヤーの間でこだわりの写真を撮影する動きが活発化している。
+    published_at: '2026-08-13T04:47:55.000Z'
+    collected_at: '2026-08-13T09:32:28.993Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: a4e33c96bd7fa0e8
+    url: https://automaton-media.com/articles/newsjp/20260813-460012/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: 『アークナイツ：エンドフィールド』Steam版ぬるっと発表。工業で星の危機に立ち向かう人気作がSteamにも登場、近日配信予定
+    summary: 『アークナイツ：エンドフィールド』のSteamストアページが公開された。配信日は現時点で未定だ。
+    published_at: '2026-08-13T04:22:44.000Z'
+    collected_at: '2026-08-13T09:32:28.993Z'
+    score: null
+    reason_code: dry_run
+    slot: preference
+  - id: bfb87d6103f670e8
+    url: https://automaton-media.com/articles/newsjp/20260812-459887/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: >-
+      美少女精神崩壊ローグライク『カオスゼロナイトメア』の新キャラ「アラベラ」は、“敵デバフ漬け”ストライカー。殴るほど硬くなる厄介ボスなどもお披露目、来週アプデにて実装
+    summary: 新規大亀裂ボスのギミックや、新規戦闘員である「アラベラ」のスキル構成などがお披露目されている。
+    published_at: '2026-08-12T09:40:00.000Z'
+    collected_at: '2026-08-13T09:32:28.993Z'
+    score: null
+    reason_code: dry_run
+    slot: explore
+  - id: 541ecb646ae34e8e
+    url: https://www.itmedia.co.jp/news/article/2608/12/2000000510/
+    source_id: itmedia_news
+    category: ai
+    fixed: false
+    title: 「10月以降も継続」　楽天のKDDIローミング終了について三木谷氏がコメント　縮小はカバー済みエリアのみ
+    summary: >-
+      楽天グループの三木谷浩史会長兼社長は8月12日、楽天モバイルがKDDIから通信網を借りるローミング契約について「現在も詰めの協議を行っている」と自身のXアカウントで説明した。カバーに時間を要するエリアでは10月以降も継続する一方、十分カバーできているエリアは縮小するという。
+    published_at: '2026-08-12T07:52:24.000Z'
+    collected_at: '2026-08-13T09:32:30.884Z'
+    score: null
+    reason_code: dry_run
+    slot: explore
+  - id: d93d051e217ca7d6
+    url: https://automaton-media.com/articles/newsjp/20260812-459832/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: >-
+      Nintendo Switch 2/Switch向けセールに約240本追加。羊カルト『Cult of the
+      Lamb』が60％オフ、『ネプテューヌ』シリーズやキャンピングカー生活オープンワールドなど最安値級
+    summary: >-
+      ニンテンドーeショップにて8月12日、Nintendo Switch 2/Nintendo
+      Switch向けタイトルの新たなセールが開始された。対象タイトルは約240本。
+    published_at: '2026-08-12T05:17:15.000Z'
+    collected_at: '2026-08-13T09:32:28.993Z'
+    score: null
+    reason_code: dry_run
+    slot: explore
+  - id: 3ab391941a7ea067
+    url: >-
+      https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json#2026-08-13T17:00:00+09:00
+    source_id: jma_tokyo
+    category: weather
+    fixed: true
+    title: 東京地方 天気 2026-08-13
+    summary: 雨 所により 雷を伴い 非常に 激しく 降る
+    published_at: '2026-08-13T08:00:00.000Z'
+    collected_at: '2026-08-13T09:32:31.932Z'
+    slot: fixed
+    score: null
+  - id: d0e717731cb96b19
+    url: >-
+      https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json#2026-08-14T00:00:00+09:00
+    source_id: jma_tokyo
+    category: weather
+    fixed: true
+    title: 東京地方 天気 2026-08-14
+    summary: 雨 昼前 から 時々 くもり 所により 雷を伴い 激しく 降る
+    published_at: '2026-08-13T15:00:00.000Z'
+    collected_at: '2026-08-13T09:32:31.932Z'
+    slot: fixed
+    score: null
