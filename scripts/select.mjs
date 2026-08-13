@@ -160,6 +160,7 @@ async function scoreWithLlm(items, preferences) {
       },
     ],
     response_format: { type: 'json_object' },
+    reasoning: { enabled: false },
   };
 
   const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
