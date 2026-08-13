@@ -40,31 +40,119 @@ async function pastIds() {
   return ids;
 }
 
-// 採点オブジェクトの配列をJSONから再帰的に探す（最大深さ5）
-function findScoreArray(obj, depth = 0) {
-  if (depth > 5) return null;
-  if (Array.isArray(obj)) {
-    // 先頭要素に id があれば採点配列とみなす
-    if (obj.length > 0 && obj[0] != null && 'id' in obj[0]) return obj;
-    // 空配列は次の候補を探す
+// rawContentを前処理: <think>ブロック・markdownコードフェンス・前後ガベージを除去し
+// JSONとして解釈できる最初の文字列を返す
+function preprocessContent(raw) {
+  let s = raw
+    .replace(/<think>[\s\S]*?<\/think>/gi, '')   // DeepSeekの思考ブロック除去
+    .replace(/```(?:json)?\s*([\s\S]*?)```/g, '$1') // markdownコードフェンス除去
+    .trim();
+
+  // 先頭に JSON 構造（[ または {）が来るよう先頭ガベージを刈る
+  const arrPos = s.indexOf('[');
+  const objPos = s.indexOf('{');
+  const start = (arrPos >= 0 && (objPos < 0 || arrPos < objPos)) ? arrPos : objPos;
+  if (start > 0) s = s.slice(start);
+  return s;
+}
+
+// オブジェクトを再帰的に探索して配列値を返す（深さ制限付き）
+function deepFindArray(obj, depth = 0) {
+  if (depth > 5 || obj == null) return null;
+  for (const val of Object.values(obj)) {
+    if (Array.isArray(val) && val.length > 0) return val;
   }
-  if (obj && typeof obj === 'object' && !Array.isArray(obj)) {
-    for (const val of Object.values(obj)) {
-      const found = findScoreArray(val, depth + 1);
+  for (const val of Object.values(obj)) {
+    if (val && typeof val === 'object' && !Array.isArray(val)) {
+      const found = deepFindArray(val, depth + 1);
       if (found) return found;
     }
   }
   return null;
 }
 
-// null を返したら呼び出し元で parse_fallback 縮退
+// 5段階パーサー。nullを返したら呼び出し元でparse_fallback縮退
+function parseScoreResponse(rawContent) {
+  console.log('[scoreWithLlm] raw (先頭500字):', rawContent.slice(0, 500));
+  const content = preprocessContent(rawContent);
+
+  // ① JSON.parse → 配列ならそのまま
+  let parsed = null;
+  try { parsed = JSON.parse(content); } catch { /* 次へ */ }
+
+  if (Array.isArray(parsed) && parsed.length > 0) {
+    console.log('[scoreWithLlm] ①配列直接');
+    return parsed;
+  }
+
+  // ② オブジェクトの値に配列があれば採用
+  if (parsed && typeof parsed === 'object' && !Array.isArray(parsed)) {
+    const arr = deepFindArray(parsed);
+    if (arr) {
+      console.log('[scoreWithLlm] ②オブジェクト内配列');
+      return arr;
+    }
+
+    // ③ id と score を持つ単一オブジェクトなら [obj] に包む
+    if ('id' in parsed && 'score' in parsed) {
+      console.log('[scoreWithLlm] ③単一オブジェクト→配列化');
+      return [parsed];
+    }
+  }
+
+  // ④ 改行分割してJSONL解析
+  const lines = rawContent.split('\n').map(l => l.trim()).filter(Boolean);
+  const jsonlItems = [];
+  for (const line of lines) {
+    if (!line.startsWith('{') && !line.startsWith('[')) continue;
+    try {
+      const obj = JSON.parse(line);
+      if (Array.isArray(obj)) jsonlItems.push(...obj);
+      else if (obj && typeof obj === 'object') jsonlItems.push(obj);
+    } catch { /* skip */ }
+  }
+  if (jsonlItems.length > 0) {
+    console.log(`[scoreWithLlm] ④JSONL ${jsonlItems.length}行`);
+    return jsonlItems;
+  }
+
+  // ⑤ 全失敗
+  console.error('[scoreWithLlm] ⑤パース全失敗。content先頭:', content.slice(0, 200));
+  return null;
+}
+
+// 各要素にidとscoreがあることを検証。不正要素は除外してログ
+function validateScoreItems(arr) {
+  const valid = [];
+  for (const item of arr) {
+    if (!item || typeof item !== 'object' || Array.isArray(item)) {
+      console.warn('[scoreWithLlm] 不正要素スキップ (非オブジェクト):', String(item).slice(0, 80));
+      continue;
+    }
+    if (!('id' in item)) {
+      console.warn('[scoreWithLlm] id欠落スキップ:', JSON.stringify(item).slice(0, 100));
+      continue;
+    }
+    if (!('score' in item)) {
+      console.warn('[scoreWithLlm] score欠落スキップ:', JSON.stringify(item).slice(0, 100));
+      continue;
+    }
+    valid.push(item);
+  }
+  if (valid.length < arr.length) {
+    console.log(`[scoreWithLlm] 検証: ${arr.length}件中 ${valid.length}件有効`);
+  }
+  return valid;
+}
+
+// nullを返したら呼び出し元でparse_fallback縮退
 async function scoreWithLlm(items, preferences) {
   const payload = {
     model: MODEL,
     messages: [
       {
         role: 'system',
-        content: `あなたはニュース採点者です。以下の嗜好文書に基づき、各記事を0-100で採点してください。\n\n${preferences}\n\n出力はJSON配列のみ。各要素: {id, score, reason_code, category}。reason_codeはワンワード英語。categoryはai/dev/construction/game/food/weather/world/otherのいずれか。`,
+        content: `あなたはニュース採点者です。以下の嗜好文書に基づき、各記事を0-100で採点してください。\n\n${preferences}\n\n出力はJSON配列のみ。各要素: {"id": "...", "score": 0-100, "reason_code": "英単語1語", "category": "ai|dev|construction|game|food|weather|world|other"}`,
       },
       {
         role: 'user',
@@ -86,7 +174,6 @@ async function scoreWithLlm(items, preferences) {
   if (!res.ok) throw new Error(`OpenRouter HTTP ${res.status}`);
   const json = await res.json();
   const usage = json.usage ?? {};
-  // 是正3: usage.cost があればそれを採用。ハードコード単価は概算フォールバック
   const costUsd = usage.cost ?? ((usage.prompt_tokens ?? 0) * 0.00000014 + (usage.completion_tokens ?? 0) * 0.00000028);
 
   await recordCost({
@@ -98,23 +185,15 @@ async function scoreWithLlm(items, preferences) {
   });
 
   const rawContent = json.choices?.[0]?.message?.content ?? '';
-  // デバッグ用ログ（本番安定後に除去可）
-  console.log('[scoreWithLlm] raw content (先頭500字):', rawContent.slice(0, 500));
+  const arr = parseScoreResponse(rawContent);
+  if (!arr) return null;
 
-  let parsed;
-  try {
-    parsed = JSON.parse(rawContent || '{}');
-  } catch (e) {
-    console.error('[scoreWithLlm] JSON.parse失敗:', e.message);
+  const valid = validateScoreItems(arr);
+  if (valid.length === 0) {
+    console.error('[scoreWithLlm] 有効要素ゼロ');
     return null;
   }
-
-  const arr = findScoreArray(parsed);
-  if (!arr) {
-    console.error('[scoreWithLlm] 採点配列が見つからない。parsed keys:', Object.keys(parsed ?? {}));
-    return null;
-  }
-  return arr;
+  return valid;
 }
 
 async function main() {
