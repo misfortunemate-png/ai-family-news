@@ -48,5 +48,5 @@ jobs:
           CANDS=$(grep -c 'id:' data/candidates/${DATE}.yaml 2>/dev/null || echo 0)
           git add data/ logs/
           git diff --cached --quiet || git commit -m "[daily] ${DATE} 収集${ITEMS}件 短冊${CANDS}件"
-          git pull --rebase
+          git pull --rebase -X ours
           git push
