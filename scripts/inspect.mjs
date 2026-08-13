@@ -136,6 +136,28 @@ async function checkDryRun() {
   check('dry-run短冊30件以下', cnt <= 30, `${cnt}件`);
 }
 
+// 是正4: issueスキーマ検査
+async function checkIssueSchema() {
+  const issueFile = join('data', 'issues', `${DATE}.yaml`);
+  if (!existsSync(issueFile)) {
+    check('issue.yaml 存在', true, '(voice未実行またはDRY_RUN)');
+    return;
+  }
+  const raw = await readFile(issueFile, 'utf8');
+  const issue = yamlLoad(raw);
+  const req = ['date', 'editor', 'topics'];
+  const missing = req.filter(k => !(k in (issue ?? {})));
+  check('issueスキーマ必須キー', missing.length === 0, missing.join(',') || 'OK');
+  // topics 各要素の必須キー
+  const topics = issue?.topics ?? [];
+  if (topics.length > 0) {
+    const topicReq = ['item_id', 'serif', 'comment', 'body_read', 'selection_reason'];
+    const topicMissing = topicReq.filter(k => !(k in topics[0]));
+    check('issueトピック必須キー', topicMissing.length === 0, topicMissing.join(',') || `${topics.length}件OK`);
+  }
+  check('issue topics ≤ 5件', topics.length <= 5, `${topics.length}件`);
+}
+
 // §5-4 bat/shのASCII検査・_STATUS.md30行以内
 async function checkFiles() {
   // ASCII check for bat/sh
@@ -159,6 +181,7 @@ async function main() {
   await checkSchema();
   checkSecrets();
   await checkDryRun();
+  await checkIssueSchema();
   await checkFiles();
 
   const failed = results.filter(r => !r.ok);

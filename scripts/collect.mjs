@@ -17,6 +17,20 @@ const xmlParser = new XMLParser({
   processEntities: false,
 });
 
+// 是正1: HTMLエンティティのデコード（processEntities:falseで生残りした&#x...;等）
+function decodeEntities(str) {
+  if (!str || typeof str !== 'string') return str ?? '';
+  return str
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&#([0-9]+);/g, (_, d) => String.fromCodePoint(parseInt(d, 10)))
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&nbsp;/g, ' ');
+}
+
 function truncate(str, len = 300) {
   if (!str) return '';
   return str.length > len ? str.slice(0, len) : str;
@@ -29,14 +43,16 @@ function parseDate(raw) {
 }
 
 function normalizeItem(rawUrl, title, summary, pubDate, sourceId, category, fixed = false) {
+  const rawTitle = decodeEntities((title ?? '').trim());
+  const rawSummary = decodeEntities(summary?.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim() ?? '');
   return {
     id: itemId(rawUrl),
     url: rawUrl,
     source_id: sourceId,
     category,
     fixed,
-    title: (title ?? '').trim().slice(0, 200),
-    summary: truncate(summary?.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim()),
+    title: rawTitle.slice(0, 200),
+    summary: truncate(rawSummary),
     published_at: parseDate(pubDate),
     collected_at: new Date().toISOString(),
   };
@@ -90,7 +106,8 @@ async function processRss(source) {
     const summary = e.description?.['#text'] ?? e.description
                  ?? e.summary?.['#text'] ?? e.summary
                  ?? e['content:encoded'] ?? '';
-    const pubDate = e.pubDate ?? e.published ?? e.updated ?? null;
+    // 是正2: RSS 1.0の dc:date をpublished_atに採用（はてブのnull対策）
+    const pubDate = e.pubDate ?? e['dc:date'] ?? e.published ?? e.updated ?? null;
     items.push(normalizeItem(url, title, summary, pubDate, source.id, source.category));
   }
   return items;

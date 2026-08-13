@@ -20,7 +20,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
       - run: npm ci
 
@@ -32,6 +32,12 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
         run: node scripts/select.mjs
+
+      - name: Voice
+        if: ${{ !inputs.dry_run }}
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: node scripts/voice.mjs
 
       - name: Commit & Push
         run: |

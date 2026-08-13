@@ -86,7 +86,8 @@ async function scoreWithLlm(items, preferences) {
   if (!res.ok) throw new Error(`OpenRouter HTTP ${res.status}`);
   const json = await res.json();
   const usage = json.usage ?? {};
-  const costUsd = ((usage.prompt_tokens ?? 0) * 0.00000014 + (usage.completion_tokens ?? 0) * 0.00000028);
+  // 是正3: usage.cost があればそれを採用。ハードコード単価は概算フォールバック
+  const costUsd = usage.cost ?? ((usage.prompt_tokens ?? 0) * 0.00000014 + (usage.completion_tokens ?? 0) * 0.00000028);
 
   await recordCost({
     ts: new Date().toISOString(),

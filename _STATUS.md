@@ -1,29 +1,29 @@
 ---
-version: M1
-badge: M1実装中
-next: inspect合格後report-m1.md作成
-waiting_on: pg
+version: M2
+badge: M2実装完了・Actions検分待ち
+next: workflow_dispatch(dry_run=false)で紙面確認
+waiting_on: owner
 ---
 # プロジェクトステータス
 
 プロジェクト: ai-family-news
-最終更新: 2026-08-13 09:00
+最終更新: 2026-08-13 12:00
 更新者: PG
 
 ## 現在のフェーズ
-Phase M1: 収集と選別
+Phase M2: 抽選と声
 
 ## 完了事項
-- ディレクトリ骨格・骨格ファイル作成
-- 疑義起票 #001（SHA-256不一致・データ定義書不在）
-- scripts/lib/ / collect / select / stats / daily / inspect 実装
-- 全水源テスト取得（8水源合格）
-- dry-run試走合格（短冊30件）
+- 是正4件（エンティティデコード・dc:date・usage.cost・issueスキーマ検査）
+- scripts/lib/article.mjs 実装
+- scripts/voice.mjs 実装（抽選・選定・本文読解・セリフ・紙面生成）
+- daily.yml: node 24化・Voiceステップ追加
+- inspect全11項目合格
+- 白紙面テスト合格・dry-run合格
 
 ## 未完了事項
-- inspect.mjs 全項目合格確認
-- report-m1.md 作成・push
+- 実採点+実声ローカル試走（.envなし → Actions検分に委譲）
 
 ## 次のアクション
-- 誰が: PG
-- 何を: inspect合格確認→report作成
+- 誰が: 発注者
+- 何を: workflow_dispatch(dry_run=false)で§6-1〜3を検分
