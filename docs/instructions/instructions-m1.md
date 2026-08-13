@@ -5,7 +5,9 @@
 ## 手順
 
 1. `git pull` 後、docs/spec-m1.md とai-family-memoryの `ops/docs/family-news-datadef.md`（データ定義v1.1）を読む
-2. 支給物確認: sources.yaml（S-1）・profile/preferences.md（S-2）が存在すること。SHA-256をdocs/reports/に記録
+2. 支給物確認: SHA-256（先頭16桁）を照合し結果をdocs/reports/に記録
+   - S-1 sources.yaml: `84cf2389f6778dee`
+   - S-2 profile/preferences.md: `bf8bed41d8cc8a24`
 3. 骨格作成: devスキルtemplates準拠で _STATUS.md・CLAUDE.md・README.md・.env.example・run-local.bat/sh
 4. scripts/lib/ → collect.mjs → select.mjs → stats.mjs → daily.yml → inspect.mjs の順に実装
 5. sources.yaml全水源のテスト取得を実施。失敗水源は enabled:false ＋ notesに理由を記入（**URLの独自修正は1回まで試行可、それ以上は疑義起票**）
