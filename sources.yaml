@@ -1,0 +1,13 @@
+# ai-family-news 水源台帳 v1.0（2026-08-13 PM支給）
+# origin: initial=初期投入 / discovery=M4開拓 / pir_demotion=長期調査降格
+# PGはテスト取得で採否を確定し、失敗水源は enabled:false + notes に理由を記入する
+sources:
+  - {id: nhk_main,      name: "NHK主要ニュース",              type: rss,  url: "https://www.nhk.or.jp/rss/news/cat0.xml",              category: world,        enabled: true, added: 2026-08-13, origin: initial, notes: ""}
+  - {id: hatebu_hot,    name: "はてなブックマーク 総合ホット", type: rss,  url: "https://b.hatena.ne.jp/hotentry/all.rss",              category: other,        enabled: true, added: 2026-08-13, origin: initial, notes: ""}
+  - {id: automaton,     name: "AUTOMATON",                    type: rss,  url: "https://automaton-media.com/feed/",                     category: game,         enabled: true, added: 2026-08-13, origin: initial, notes: ""}
+  - {id: fourgamer,     name: "4Gamer",                       type: rss,  url: "https://www.4gamer.net/rss/index.xml",                  category: game,         enabled: true, added: 2026-08-13, origin: initial, notes: ""}
+  - {id: itmedia_news,  name: "ITmedia NEWS",                 type: rss,  url: "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",     category: ai,           enabled: true, added: 2026-08-13, origin: initial, notes: ""}
+  - {id: publickey,     name: "Publickey",                    type: rss,  url: "https://www.publickey1.jp/atom.xml",                    category: dev,          enabled: true, added: 2026-08-13, origin: initial, notes: ""}
+  - {id: gigazine,      name: "GIGAZINE",                     type: rss,  url: "https://gigazine.net/news/rss_2.0/",                    category: other,        enabled: true, added: 2026-08-13, origin: initial, notes: ""}
+  - {id: jma_tokyo,     name: "気象庁 東京予報",               type: json, url: "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json", category: weather, enabled: true, added: 2026-08-13, origin: initial, fixed: true, notes: "採点対象外・fixed枠"}
+  # reddit系はOAuth取得後に追加（データ定義書A-1）
