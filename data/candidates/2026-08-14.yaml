@@ -1,59 +1,52 @@
 date: '2026-08-14'
-count: 6
+count: 7
 candidates:
-  - id: 75ed17d26a702086
-    url: https://news.web.nhk/newsweb/na/nd-20260814de43980
-    source_id: nhk_main
-    category: weather
+  - id: 88106aeb2f03f094
+    url: https://hachim.hateblo.jp/entry/2026/08/14/174629
+    source_id: hatebu_hot
+    category: other
     fixed: false
-    title: 【千葉 大雨被害】死者8人に 路上や車内で亡くなる
+    title: 線状降水帯の直下にて - はちまドボク
     summary: >-
-      レベル5大雨特別警報が出された千葉県内の大雨被害について、14日にわかった情報などをまとめてお伝えします。
-      警察によりますと千葉県柏市で水につかった車の中から救助され心肺停止の状態になっていた女性の…
-    published_at: '2026-08-14T04:46:32.000Z'
-    collected_at: '2026-08-14T05:32:19.473Z'
-    image_url: null
-    score: 45
-    reason_code: breaking
-    slot: preference
-  - id: dd216bc229964f5e
-    url: https://www.4gamer.net/games/020/G102075/20260814009/
-    source_id: fourgamer
-    category: game
-    fixed: false
-    title: 「Sandustry」の早期アクセス版が公開に。未知の惑星に産業工場を築き，地下世界に眠る謎の解明を目指す「ピクセル工場自動化シミュレーション」
-    summary: >-
-      HoodedHorseとLanttoGamesは2026年8月13日，未知の惑星に産業工場を築き，地下世界に眠る謎の解明を目指す「Sandustry」の早期アクセス版をSteam，GOG，MicrosoftStoreでリリースした。
-    published_at: '2026-08-14T03:36:29.000Z'
-    collected_at: '2026-08-14T05:32:22.707Z'
+      昨晩自分が直面した「令和8年8月千葉豪雨」について、ここにメモを書き残しておく。
+      なんとなく逆走台風の余韻らしきものが残っていた昨日は、雨雲レーダーの動きをちらちらと気にしつつ、自宅に引きこもって仕事をしていた。夕方近くになり、急に雨音が強くなった。スマホを見ると、「赤い雨」のエリアがちょうど自分の...
+    published_at: '2026-08-14T10:13:13.000Z'
+    collected_at: '2026-08-14T21:13:38.617Z'
     image_url: null
     score: 0
     reason_code: unknown
     slot: explore
-  - id: 4df24c711da3be39
-    url: https://www.4gamer.net/games/027/G102771/20260814004/
-    source_id: fourgamer
-    category: game
+  - id: 93870da73fe533e7
+    url: https://togetter.com/li/2732933
+    source_id: hatebu_hot
+    category: other
     fixed: false
-    title: Chilla's Artの最新作「Snowed Under | 雪葬」，Steamで配信開始。シャベルで少しずつ雪を掘り進め，電波塔を目指す
+    title: >-
+      「結婚できるかどうかはその人の○○○を手で持てるか」高校の先生に教わった最悪の結婚論が的を得ている「だから相手の汗や唾液を許せるかってのはそれの第一審査」
     summary: >-
-      Chilla'sArtは本日，PC用ソフト「SnowedUnder|雪葬」の配信をSteamで開始した。「TheConvenienceStore|夜勤事件」などを手がけたChilla'sArtの最新作である本作は，雪山で雪かきをする一人称ホラーゲームだ。
-    published_at: '2026-08-14T02:19:24.000Z'
-    collected_at: '2026-08-14T05:32:22.708Z'
+      思考遊戯 @think_hacking
+      勉強で勝てなかった人のための思考術｜学校では教わらない処世術や立ち回りを言語化しています｜考えの積み上げ方｜勝ち筋の見つけ方｜自分の頭で生きていくための視点を発信しています
+      note.com/think_hacking/… 高校の先生に教わった最悪の結婚論 高校のとき先生に言われた言葉をいまだに覚え...
+    published_at: '2026-08-14T08:42:35.000Z'
+    collected_at: '2026-08-14T21:13:38.618Z'
     image_url: null
     score: 0
     reason_code: unknown
     slot: explore
-  - id: b4c4ee6752c7044a
-    url: https://www.itmedia.co.jp/news/article/2608/14/2000000541/
-    source_id: itmedia_news
-    category: ai
+  - id: 68186b79d2ef2262
+    url: https://rollingstonejapan.com/articles/detail/45217
+    source_id: hatebu_hot
+    category: other
     fixed: false
-    title: 千葉県の豪雨から一夜　2万軒超で停電続く　千葉市では2260人が避難
+    title: >-
+      【独占】G PLANTS、「自分のヒップホップ」を始める　舐達麻、逮捕、留置所を語る | Rolling Stone Japan(ローリングストーン
+      ジャパン）
     summary: >-
-      8月13日の大雨の影響で、千葉県内では14日も大規模な停電が続いている。東京電力パワーグリッドの停電情報によると、14日午後1時時点で、県内では約2万2370軒が停電している。茨城県でも同時点で580軒が停電していという。
-    published_at: '2026-08-14T04:31:32.000Z'
-    collected_at: '2026-08-14T05:32:23.295Z'
+      舐達麻のメンバーとして、数々の楽曲で確かな存在感を放ってきたG
+      PLANTS。しかし近年、3人での活動からその姿が見えなくなると、ファンの間では「脱退したのではないか」「再び逮捕されたのか」、さらには死亡説まで、さまざまな憶測が飛び交っていた。
+      長い沈黙を破り、G PLANTSがついにソロプロジェクトを始動する。...
+    published_at: '2026-08-14T03:18:12.000Z'
+    collected_at: '2026-08-14T21:13:38.619Z'
     image_url: null
     score: 0
     reason_code: unknown
@@ -81,6 +74,32 @@ candidates:
     summary: くもり 明け方 まで 雨 所により 雷を伴い 激しく 降る
     published_at: '2026-08-14T15:00:00.000Z'
     collected_at: '2026-08-14T05:32:24.167Z'
+    image_url: null
+    slot: fixed
+    score: null
+  - id: a38eb2db56dd1372
+    url: >-
+      https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json#2026-08-15T05:00:00+09:00
+    source_id: jma_tokyo
+    category: weather
+    fixed: true
+    title: 東京地方 天気 2026-08-15
+    summary: くもり 明け方 まで 雨 所により 雷を伴い 激しく 降る
+    published_at: '2026-08-14T20:00:00.000Z'
+    collected_at: '2026-08-14T21:13:41.133Z'
+    image_url: null
+    slot: fixed
+    score: null
+  - id: a5725304f47b6170
+    url: >-
+      https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json#2026-08-16T00:00:00+09:00
+    source_id: jma_tokyo
+    category: weather
+    fixed: true
+    title: 東京地方 天気 2026-08-16
+    summary: くもり 昼過ぎ から 夕方 晴れ 所により 明け方 まで 雨
+    published_at: '2026-08-15T15:00:00.000Z'
+    collected_at: '2026-08-14T21:13:41.133Z'
     image_url: null
     slot: fixed
     score: null
