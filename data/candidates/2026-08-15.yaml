@@ -1,0 +1,87 @@
+date: '2026-08-15'
+count: 6
+candidates:
+  - id: 827a4968165913ee
+    url: https://ai.itokoba.com/archives/861/
+    source_id: hatebu_hot
+    category: ai
+    fixed: false
+    title: AIを使っているなら全員入れるべきAgent Skill 4選【ChatGPT / Codex / Claude Code】
+    summary: >-
+      こんにちは。AIを効率的に使うならSkillを入れた方がいいとよく言われていますよね。 実際、Agent
+      Skillを探し始めるとかなりの数が見つかります。 ですが、何でもかんでも入れればいいというわけではありません。む […]
+    published_at: '2026-08-15T03:56:39.000Z'
+    collected_at: '2026-08-15T21:09:29.440Z'
+    image_url: null
+    score: 95
+    reason_code: aitool
+    slot: preference
+  - id: 4bb0ca0089c89ecf
+    url: https://www.4gamer.net/games/931/G093154/20260815018/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: 一度作れば，ゲーム開発はずっと続けていけるのか。創作，生存，持続をテーマにインディー開発者3名が本音で話すセッションをレポート［BIC2026］
+    summary: >-
+      核となるのは，ゲーム開発をしたら，ずっと開発を続けられるのか，という問いである。異なる理由でゲームを作り始めた3組の開発者が登壇し，創作（CREATE），生存（SURVIVE），持続（CONTINUE）の3セクションに沿って，来場者から事前に募集された質問に答えていった。
+    published_at: '2026-08-15T09:00:57.000Z'
+    collected_at: '2026-08-15T21:09:31.661Z'
+    image_url: null
+    score: 0
+    reason_code: unknown
+    slot: explore
+  - id: 161be393508e32ed
+    url: https://www.4gamer.net/games/033/G103342/20260815011/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: >-
+      18人の韓国同人チームが作るリズムゲーム「Witch's
+      Lounge」。マウス操作の無理ゲーから，魔女が魔法陣をキビキビ描く音ゲーへ［BIC2026］
+    summary: かわいい魔女たちと一緒に魔法陣セラピー店を立て直す。韓国の同人チームが作る「Witch'sLounge」をBIC2026で体験してきた。
+    published_at: '2026-08-15T06:41:05.000Z'
+    collected_at: '2026-08-15T21:09:31.661Z'
+    image_url: null
+    score: 0
+    reason_code: unknown
+    slot: explore
+  - id: fefa099fd54db005
+    url: https://www.4gamer.net/games/033/G103339/20260815004/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: 「Red Experience」は，誰が殺したかではなく，誰がケーキを食べたかを真面目に探す推理デスゲーム［BIC2026］
+    summary: >-
+      インディーゲームイベント「BIC2026」で，デスゲームにしては雰囲気がカジュアルすぎる推理アドベンチャーゲーム「RedExperience」をプレイした。開発者にも話を聞けたので，試遊の模様を紹介しよう。
+    published_at: '2026-08-15T04:23:15.000Z'
+    collected_at: '2026-08-15T21:09:31.661Z'
+    image_url: null
+    score: 0
+    reason_code: unknown
+    slot: explore
+  - id: 1c69246d183c57d4
+    url: >-
+      https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json#2026-08-16T05:00:00+09:00
+    source_id: jma_tokyo
+    category: weather
+    fixed: true
+    title: 東京地方 天気 2026-08-16
+    summary: くもり 所により 昼前 から 雨
+    published_at: '2026-08-15T20:00:00.000Z'
+    collected_at: '2026-08-15T21:09:33.770Z'
+    image_url: null
+    slot: fixed
+    score: null
+  - id: 0a6913cb2a59a03a
+    url: >-
+      https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json#2026-08-17T00:00:00+09:00
+    source_id: jma_tokyo
+    category: weather
+    fixed: true
+    title: 東京地方 天気 2026-08-17
+    summary: くもり 昼過ぎ 晴れ 所により 夕方 まで 雨
+    published_at: '2026-08-16T15:00:00.000Z'
+    collected_at: '2026-08-15T21:09:33.770Z'
+    image_url: null
+    slot: fixed
+    score: null
