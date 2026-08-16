@@ -1,0 +1,77 @@
+date: '2026-08-16'
+count: 5
+candidates:
+  - id: af66417159a7abb6
+    url: https://shonenjumpplus.com/episode/9253191255890793946
+    source_id: hatebu_hot
+    category: other
+    fixed: false
+    title: '[第65話]ドラマクイン - 市川苦楽 | 少年ジャンプ＋'
+    summary: >-
+      ドラマクイン 市川苦楽
+      <毎週月曜更新！最新2話無料>宇宙人が地球を救ってから、人間と宇宙人が共に住むようになった日本。工場で宇宙人の上司にこき使われるノマモトは、家族を宇宙人に殺されたという北見と出会う。仲を深める2人だが、ある日北見がとんでもないことをしてしまい…
+      [JC7巻9/4発売]
+    published_at: '2026-08-16T15:08:42.000Z'
+    collected_at: '2026-08-16T21:08:42.834Z'
+    image_url: null
+    score: 0
+    reason_code: unknown
+    slot: explore
+  - id: 0bfad6200c0a1089
+    url: https://gendai.media/articles/-/170149
+    source_id: hatebu_hot
+    category: other
+    fixed: false
+    title: 「マンジャロも打ちました」元大関・琴光喜、波乱万丈すぎる「第二の人生」
+    summary: >-
+      親友の代わりに億単位の借金を背負い、月に金利だけで500万円の返済に追われ、自らの焼肉店も失うこととなった元大関・琴光喜（50歳）。どん底の彼に手を差し伸べたのは、2010年の「大相撲野球賭博問題」で共に相撲協会を解雇された元関脇・貴闘力（58歳）だったーー。
+      前編記事『元大関・琴光喜が貴闘力と二人で「同居...
+    published_at: '2026-08-16T06:35:47.000Z'
+    collected_at: '2026-08-16T21:08:42.835Z'
+    image_url: null
+    score: 0
+    reason_code: unknown
+    slot: explore
+  - id: 0ef615ec316914ee
+    url: https://automaton-media.com/articles/newsjp/20260816-460353/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: >-
+      PS5『ゴースト・オブ・ヨウテイ』の“大型拡張”は10月1日発売。老舗FPS『AVA』の新作『AVA
+      RE:BIRTH』発表。今週の見逃せないゲーム記事7選
+    summary: >-
+      今週のAUTOMATONにて反響の大きかったゲーム紹介系記事を中心に、7本の記事をピックアップ。今週は『ゴースト・オブ・ヨウテイ』拡張コンテンツのほか、『AVA
+      RE:BIRTH』や『ゴールデンレトリバーと過ごす日々』などが話題となった。
+    published_at: '2026-08-16T04:19:59.000Z'
+    collected_at: '2026-08-16T21:08:42.963Z'
+    image_url: null
+    score: 0
+    reason_code: unknown
+    slot: explore
+  - id: 38ca65b1d3e53933
+    url: >-
+      https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json#2026-08-17T05:00:00+09:00
+    source_id: jma_tokyo
+    category: weather
+    fixed: true
+    title: 東京地方 天気 2026-08-17
+    summary: くもり 所により 夕方 まで 雨
+    published_at: '2026-08-16T20:00:00.000Z'
+    collected_at: '2026-08-16T21:08:45.574Z'
+    image_url: null
+    slot: fixed
+    score: null
+  - id: 423eb910e00c8b09
+    url: >-
+      https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json#2026-08-18T00:00:00+09:00
+    source_id: jma_tokyo
+    category: weather
+    fixed: true
+    title: 東京地方 天気 2026-08-18
+    summary: くもり 時々 晴れ
+    published_at: '2026-08-17T15:00:00.000Z'
+    collected_at: '2026-08-16T21:08:45.574Z'
+    image_url: null
+    slot: fixed
+    score: null
