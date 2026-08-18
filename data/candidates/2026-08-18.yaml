@@ -1,0 +1,75 @@
+date: '2026-08-18'
+count: 5
+candidates:
+  - id: bcf3b748c2b94f6a
+    url: https://news.web.nhk/newsweb/na/nd-20260818de44900
+    source_id: nhk_main
+    category: world
+    fixed: false
+    title: 秋篠宮ご夫妻 パラグアイに向けて出発
+    summary: >-
+      秋篠宮ご夫妻は、18日夜、南米のパラグアイを公式訪問するため、羽田空港を出発されました。日本人移住者や子孫と交流して、苦難の歴史や、その功績に思いをはせられます。
+    published_at: '2026-08-18T13:43:36.000Z'
+    collected_at: '2026-08-18T20:23:30.000Z'
+    image_url: null
+    score: 0
+    reason_code: unknown
+    slot: explore
+  - id: 1ab32ec9c4dd70b7
+    url: >-
+      https://grandfleet.info/us-related/u-s-armys-plan-to-ramp-up-155mm-shell-production-factory-buildings-and-equipment-are-all-in-a-state-of-disrepair/
+    source_id: hatebu_hot
+    category: other
+    fixed: false
+    title: 米陸軍の155mm砲弾増産計画、工場の建物も設備もすべてが壊れている
+    summary: >-
+      米陸軍の155mm砲弾増産計画＝月10万発達成で最重要だったメスキート工場の大失敗について詳細な報道が登場、この工場の元従業員たちは「工場の建物も設備もすべてが壊れている」と明かし、工場では「スパイによる妨害･破壊工作ではないか」とまで噂される始末だったらしい。
+      参考：Fiasco in the Factory: Taxpayers Fun...
+    published_at: '2026-08-18T04:42:00.000Z'
+    collected_at: '2026-08-18T20:23:30.090Z'
+    image_url: null
+    score: 0
+    reason_code: unknown
+    slot: explore
+  - id: 240ae958c08802d0
+    url: https://rust-cpu-gpu-book.void.app/
+    source_id: hatebu_hot
+    category: other
+    fixed: false
+    title: はじめに
+    summary: >-
+      この本は、Webアプリケーション開発者のための、CPUとGPUの教科書です。
+      Rustのコードを入り口にして、コンピュータが実際にどう計算しているのかを、 ハードウェアの動きまで下りて理解することを目指します。
+      次のような読者を想定しています。 Webアプリケーションの開発経験はあるが、CPUやGPUの内部にはあまり詳し...
+    published_at: '2026-08-18T09:53:45.000Z'
+    collected_at: '2026-08-18T20:23:30.090Z'
+    image_url: null
+    score: 0
+    reason_code: unknown
+    slot: explore
+  - id: 69343f4728e6df16
+    url: >-
+      https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json#2026-08-19T05:00:00+09:00
+    source_id: jma_tokyo
+    category: weather
+    fixed: true
+    title: 東京地方 天気 2026-08-19
+    summary: 晴れ 昼過ぎ から くもり 多摩西部 では 昼過ぎ から 夕方 雨
+    published_at: '2026-08-18T20:00:00.000Z'
+    collected_at: '2026-08-18T20:23:32.338Z'
+    image_url: null
+    slot: fixed
+    score: null
+  - id: 1c23cab4b77af3d6
+    url: >-
+      https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json#2026-08-20T00:00:00+09:00
+    source_id: jma_tokyo
+    category: weather
+    fixed: true
+    title: 東京地方 天気 2026-08-20
+    summary: くもり 朝 から 昼過ぎ 晴れ 多摩西部 では 昼過ぎ から 雨 で 雷を伴う
+    published_at: '2026-08-19T15:00:00.000Z'
+    collected_at: '2026-08-18T20:23:32.338Z'
+    image_url: null
+    slot: fixed
+    score: null
