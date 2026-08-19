@@ -1,0 +1,453 @@
+date: '2026-08-19'
+count: 30
+candidates:
+  - id: 85ed241751c33088
+    url: https://gihyo.jp/admin/serial/01/ubuntu-recipe/0923
+    source_id: hatebu_hot
+    category: dev
+    fixed: false
+    title: 第923回　DockgeでDocker Composeをブラウザから手軽に管理しよう | gihyo.jp
+    summary: >-
+      Dockerでアプリケーションを動かすのであれば、コンテナやネットワークなどの構成をYAMLファイルにまとめられる、Docker
+      Composeを使うのがお勧めです。しかし複数のアプリを動かしていると、Composeファイルも徐々に増えていきます。SSHでサーバーへログインし、各ディレクトリで「docker
+      compose up」や「docker compo...
+    published_at: '2026-08-19T08:29:08.000Z'
+    collected_at: '2026-08-19T20:27:19.541Z'
+    image_url: null
+    score: 90
+    reason_code: dev_tool_docker
+    slot: preference
+  - id: b19f53b501606cde
+    url: https://gigazine.net/news/20260819&#45;hermes&#45;agent&#45;first&#45;use/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: 使い込むほど成長するAIエージェント「Hermes Agent」をWindowsで実際に使ってみた、インストールからウェブ検索・ブラウザ操作まで
+    summary: >-
+      Nous Researchが開発する「Hermes
+      Agent」は、実際にAIモデルを作成する中で具体的にどういう機能がAIエージェントに求められているのか？という視点から、単なるチャットではなく「ターミナルでの操作」を前提に開発されており、ウェブ検索・ブラウザ操作・ファイル操作など複数のツールを組み合わせながらタスクを進められるオープンソースのAIエージェントです。さらに、複雑な作業で得た手順を「スキル」として保存して次回以降に再利用するなど、使えば使うほど自動的に作業方法を学習していく仕組みも備えています。今回はWindows
+      11搭載PCにHermes Agentをインストールし、ウェブ
+    published_at: '2026-08-19T13:50:00.000Z'
+    collected_at: '2026-08-19T20:27:22.077Z'
+    image_url: null
+    score: 90
+    reason_code: ai_agent_local_hands_on
+    slot: preference
+  - id: f0586af2b54ba6a7
+    url: https://youtabs.com/
+    source_id: hatebu_hot
+    category: dev
+    fixed: false
+    title: YouTabs — Audio to MIDI, TAB & Chord Charts
+    summary: >-
+      Turn audio or MIDI into playable MIDI, guitar and bass TAB, and chord
+      charts in your browser. Files stay on your device—no upload or
+      installation required.
+    published_at: '2026-08-19T05:18:50.000Z'
+    collected_at: '2026-08-19T20:27:19.539Z'
+    image_url: null
+    score: 85
+    reason_code: dev_tool_local
+    slot: preference
+  - id: a6df97cf628a0822
+    url: https://www.itmedia.co.jp/news/article/2608/19/2000000598/
+    source_id: itmedia_news
+    category: dev
+    fixed: false
+    title: コードが書けない筆者が愛車用にアプリを2本自作　「AI製アプリで起業」の夢膨らむも、見えた有料化の壁
+    summary: >-
+      プログラミング経験がほぼない筆者が、Claude
+      Codeを使い、Tesla専用のiPhoneアプリを数日で2本開発。自然言語だけで進める「バイブコーディング」の手軽さと、AI時代のアプリ開発の可能性、起業まで見据えたときの限界を考える。
+    published_at: '2026-08-19T01:00:00.000Z'
+    collected_at: '2026-08-19T20:27:21.085Z'
+    image_url: null
+    score: 85
+    reason_code: ai_personal_dev
+    slot: preference
+  - id: 71b475ab36dc741a
+    url: https://www.publickey1.jp/blog/26/dockerdocker_vmm.html
+    source_id: publickey
+    category: dev
+    fixed: false
+    title: Docker社、コンテナ向けの高性能な新ハイパーバイザ「Docker VMM」パブリックベータ公開
+    summary: >-
+      Docker社は独自開発したコンテナ向けの高性能な新ハイパーバイザ「Docker
+      VMM」をパブリックベータとして公開しました。WindowsとmacOSに対応した最新の「Docker Desktop v4.86」で利用可能です。
+      Toda...
+    published_at: '2026-08-19T17:43:24.000Z'
+    collected_at: '2026-08-19T20:27:21.577Z'
+    image_url: null
+    score: 85
+    reason_code: docker_vmm_launch
+    slot: preference
+  - id: 35f9ea0fcb8cafb8
+    url: >-
+      https://gigazine.net/news/20260819&#45;anthropic&#45;claude&#45;multiagent&#45;turf&#45;war/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: Claudeエージェント同士が「縄張り争い」で互いを妨害したり価格について共謀したりする事例がAnthropicの実験で発生
+    summary: >-
+      AIエージェントとは与えられた目標に沿ってツールを使い、複数の手順からなる作業を自律的に進めるAIです。Anthropicは2026年8月13日、それぞれ異なる目標を与えられた複数のAIエージェントが明確な上下関係なしに同じコードベースを編集したり同じ市場で商品を販売したりする状況を再現し、協調や対立のパターンを調べた研究結果を公開しました。続きを読む...
+    published_at: '2026-08-19T14:30:00.000Z'
+    collected_at: '2026-08-19T20:27:22.077Z'
+    image_url: null
+    score: 85
+    reason_code: ai_agent_conflict
+    slot: preference
+  - id: 449ec42b8d6a81cf
+    url: >-
+      https://gigazine.net/news/20260819&#45;lm&#45;studio&#45;bionic&#45;skills/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: ローカルAIエージェントアプリ「Bionic」がSkillsに対応しCodexやClaude Codeの使い勝手に近づく
+    summary: >-
+      BionicはクラウドAIサービスだけでなくローカルで実行するAIモデルにも対応したAIエージェントアプリです。新たにBionicがSkillsに対応し、CodexやClaude
+      Codeなどで培われた大量のSkillsを活用できるようになりました。続きを読む...
+    published_at: '2026-08-19T11:00:00.000Z'
+    collected_at: '2026-08-19T20:27:22.077Z'
+    image_url: null
+    score: 85
+    reason_code: ai_agent_local_skills
+    slot: preference
+  - id: 16fca8c120709e8a
+    url: https://www.javainthebox.com/2026/08/java-ring.html
+    source_id: hatebu_hot
+    category: dev
+    fixed: false
+    title: 探偵！ナイトスクープ Java Ring回の裏側
+    summary: >-
+      ひょんなことから探偵！ナイトスクープに出演することなっていました。人生長く生きていると、何が起こるか分からないものです。
+      どうして出演することになったのかとか、他の出演者がどうやって決まったのかなどの話はともかく、Java Ringですよ。
+      実際の撮影は1日がかりだったのですが、放送はたった10分。削られた部...
+    published_at: '2026-08-19T09:31:12.000Z'
+    collected_at: '2026-08-19T20:27:19.539Z'
+    image_url: null
+    score: 80
+    reason_code: tech_culture_deepdive
+    slot: preference
+  - id: 5af29f545b810940
+    url: https://automaton-media.com/articles/newsjp/20260819-461141/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: 癒しの浮遊島コロニーシム『雲ぐらしの民』、初の大型アプデで日本語訳が全面刷新。戦闘なし、原住民と協力発展ライフがより遊びやすく
+    summary: >-
+      XinZhiは、コロニーシム『雲ぐらしの民』向けに初の大型アップデートを配信した。日本語翻訳が全面的に見直されるほか、拠点建築の自由度が増すさまざまな要素が追加される。
+    published_at: '2026-08-19T10:20:27.000Z'
+    collected_at: '2026-08-19T20:27:19.740Z'
+    image_url: null
+    score: 80
+    reason_code: game_colony_sim
+    slot: preference
+  - id: 22ff57a4976064a7
+    url: https://www.itmedia.co.jp/news/article/2608/19/2000000613/
+    source_id: itmedia_news
+    category: ai
+    fixed: false
+    title: Googleや英政府、AIで飛行機雲を回避する大規模実証開始　航空業界の温暖化影響を減らす狙い
+    summary: >-
+      Googleは、英政府や航空管制大手NATSなどと共同で、AIを用いて飛行機雲を回避する実証プログラムを開始すると発表した。北大西洋のシャンウィック洋上空域を対象に、航路をわずかに変更して温暖化影響を抑える。空域規模での協調的回避の実証は世界初となり、Googleは計算基盤などを現物提供する。
+    published_at: '2026-08-19T02:09:16.000Z'
+    collected_at: '2026-08-19T20:27:21.085Z'
+    image_url: null
+    score: 80
+    reason_code: ai_climate_practical
+    slot: preference
+  - id: db47307acacdb0b1
+    url: https://www.itmedia.co.jp/news/article/2608/19/2000000606/
+    source_id: itmedia_news
+    category: ai
+    fixed: false
+    title: OpenAI、「ChatGPT for Teens」発表──宿題の“丸投げ”検知、自傷や摂食障害などの保護も強化
+    summary: >-
+      OpenAIは、13?17歳向けの新環境「ChatGPT for
+      Teens」を発表した。年齢推定や申告に基づいて自動適用され、段階的な理解を促す「Study
+      Mode」などの学習機能を提供。自傷行為や摂食障害などの高リスク領域での保護を標準で有効にし、感情的な依存を促す対話を禁じるなど安全対策を強化した。
+    published_at: '2026-08-18T22:54:32.000Z'
+    collected_at: '2026-08-19T20:27:21.085Z'
+    image_url: null
+    score: 80
+    reason_code: ai_safety_teens
+    slot: preference
+  - id: dbe12a0c901b7eab
+    url: https://www.publickey1.jp/blog/26/pythonmojowindows.html
+    source_id: publickey
+    category: dev
+    fixed: false
+    title: Pythonライクな新言語「Mojo」がオープンソースで公開、コンパイラやツールチェーンなど。Windows版の開発も表明
+    summary: >-
+      Pythonライクな新言語「Mojo」の開発元であるModular社は、Mojoをオープンソースとして公開したことを、同社主催のイベント「ModCon
+      2026」で発表しました。 具体的にはMojoのコンパイラとツールチェーンがGitHub...
+    published_at: '2026-08-19T15:40:43.000Z'
+    collected_at: '2026-08-19T20:27:21.577Z'
+    image_url: null
+    score: 80
+    reason_code: mojo_open_source
+    slot: preference
+  - id: ea695392321895e5
+    url: https://gigazine.net/news/20260819&#45;samsung&#45;claude&#45;code/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: SamsungがClaude Codeを導入し「1カ月かかる設計を2日に短縮した」と報告
+    summary: >-
+      SamsungがAnthropicのAIコーデイングツール「Claude
+      Code」を導入し、一部の半導体設計・検証作業の期間を大幅に短縮したことが分かりました。続きを読む...
+    published_at: '2026-08-19T03:14:00.000Z'
+    collected_at: '2026-08-19T20:27:22.078Z'
+    image_url: null
+    score: 80
+    reason_code: ai_coding_productivity
+    slot: preference
+  - id: 643cb3792898fd26
+    url: https://togetter.com/li/2734902
+    source_id: hatebu_hot
+    category: food
+    fixed: false
+    title: 「君たちが人生で一番うまいと思った飯を教えてくれ、残りの人生で全て食い尽くす」料理系YouTuberの呼びかけに全国のグルメが集まる
+    summary: >-
+      アオキユウタ・チッチ🦍🦁🐉 @aokiutah_chitti @GensEssay 愛知県安城市の町中華「蘇州園」の揚げ餃子と唐揚げラーメン
+      揚げ餃子に油淋鶏ダレ？を絡めたのと、味付けの唐揚げを沈めた鶏ガラ出汁の醤油ラーメン。変哲なさそうでめちゃ変哲ある独自の味わいです。(揚げ餃子写真撮ってなかった...
+      子供の頃から通ってるので...
+    published_at: '2026-08-19T06:28:32.000Z'
+    collected_at: '2026-08-19T20:27:19.539Z'
+    image_url: null
+    score: 75
+    reason_code: food_local
+    slot: preference
+  - id: 2d175cf456e9c648
+    url: https://faithandbrave.hateblo.jp/entry/2026/08/19/164010
+    source_id: hatebu_hot
+    category: dev
+    fixed: false
+    title: ゲーム開発で乱数生成としてメルセンヌ・ツイスターの代わりにPhiloxを使う場合に考えること - Faith and Brave - C++で遊ぼう
+    summary: >-
+      C++26から新たに擬似乱数生成器としてPhiloxというアルゴリズムが入ります。
+      32ビット版はstd::philox4x32、64ビット版はstd::philox4x64です。
+      Philoxはカウンターベースの乱数生成器というもので、key (seed) とcounterの組み合わせによって乱数を生成します。
+      既存のメルセンヌ・ツイスターを使ったコードを書き換え...
+    published_at: '2026-08-19T11:15:14.000Z'
+    collected_at: '2026-08-19T20:27:19.541Z'
+    image_url: null
+    score: 75
+    reason_code: game_dev_tech
+    slot: preference
+  - id: e34ad277953e3c5b
+    url: https://www.itmedia.co.jp/news/article/2608/19/2000000605/
+    source_id: itmedia_news
+    category: ai
+    fixed: false
+    title: OpenAI、フロンティアAIの強化学習を一部停止　安全対策を強化
+    summary: >-
+      OpenAIは、外部侵害インシデントや次期モデルの高いサイバー能力を受け、開発・テスト段階の安全対策を強化すると発表した。一部の大規模モデルの強化学習を一時停止し、研究環境の隔離や内部活動の監視多段化、アラインメント手法の拡張を実施。安全性基準を満たした上で開発を進める姿勢を示した。
+    published_at: '2026-08-18T22:06:14.000Z'
+    collected_at: '2026-08-19T20:27:21.085Z'
+    image_url: null
+    score: 75
+    reason_code: ai_safety_stop
+    slot: preference
+  - id: 7259e0cd9b9d75e7
+    url: https://gigazine.net/news/20260819&#45;operation&#45;blue&#45;skies/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: AIにより飛行機雲発生の少ない空路を選んで地球温暖化緩和を目指す「Operation Blue Skies」をGoogleが始動
+    summary: >-
+      飛行機雲(コントレイル)は、航空機が搭載しているジェットエンジンの排気ガスに含まれる煤粒子に水蒸気が凝結して形成されるもので、地球温暖化の原因の1つであり、航空業界による気候への影響のおよそ3分の1を占めています。このため、GoogleはAIを活用して北大西洋上の空路を飛行機雲が発生しにくいものにする試みに、イギリス政府や航空業界の協力を得て取り組んでいます。試みは「Operation
+      Blue Skies(青空作戦／ブルースカイズ作戦)」と呼ばれています。続きを読む...
+    published_at: '2026-08-19T14:10:00.000Z'
+    collected_at: '2026-08-19T20:27:22.077Z'
+    image_url: null
+    score: 75
+    reason_code: ai_climate_operation
+    slot: preference
+  - id: 4d325807f85149f4
+    url: https://gigazine.net/news/20260819&#45;ai&#45;agent&#45;command/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: AIエージェントに「安全なコマンド」を許可しただけで任意コード実行、Dockerが解説するコマンド承認の落とし穴
+    summary: >-
+      AIを使ってプログラミングを支援する「AIコーディングエージェント」では、危険なコマンドを実行する前にユーザーへ確認を求める仕組みが使われています。しかしDockerは2026年8月18日に、安全に見えるコマンドをユーザーが承認しても攻撃者のコードが実行される可能性がある事例を紹介しました。続きを読む...
+    published_at: '2026-08-19T07:15:00.000Z'
+    collected_at: '2026-08-19T20:27:22.077Z'
+    image_url: null
+    score: 75
+    reason_code: ai_agent_security_warning
+    slot: preference
+  - id: a09d413ec692b3a6
+    url: https://gigazine.net/news/20260819&#45;ai&#45;agent&#45;memory/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: AIエージェントは「記憶」が多いほど賢くなるわけではない、IBM Researchが8モデルで検証
+    summary: >-
+      AIエージェントに過去の経験を「記憶」として大量に与えても、必ずしも性能が高くなるわけではないことがIBM
+      Researchの実験で示されました。AIモデルによっては、すべての記憶を渡すより必要な情報だけを選んだ方が高い性能を発揮するとのことです。続きを読む...
+    published_at: '2026-08-19T05:30:00.000Z'
+    collected_at: '2026-08-19T20:27:22.077Z'
+    image_url: null
+    score: 75
+    reason_code: ai_agent_memory_study
+    slot: preference
+  - id: 9dec26ccfaab216b
+    url: https://blog.a-know.me/entry/2026/08/19/174450
+    source_id: hatebu_hot
+    category: dev
+    fixed: false
+    title: CRE だけど「SREの知識地図」を読んだ - えいのうにっき
+    summary: >-
+      発売されて間もなくくらいに買うだけ買っておいて積ん読状態になっていた「SREの知識地図」を、今更ながらに読みました。
+      SREの知識地図——基礎知識から現場での実践まで 作者:北野 勝久,近藤 健司,小林 良太郎,渡部 龍一,齊藤 拓朗,柘植 翔太,横山
+      達男技術評論社Amazon 僕は普段は CRE（SRE ではなく）をやっていて、自...
+    published_at: '2026-08-19T09:22:59.000Z'
+    collected_at: '2026-08-19T20:27:19.541Z'
+    image_url: null
+    score: 70
+    reason_code: sre_personal
+    slot: preference
+  - id: ba8154c23a9e048c
+    url: https://www.4gamer.net/games/999/G999905/20260819014/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: 「ウルティマ・アンダーワールド」や「Deus Ex」で知られる名プロデューサー，ウォーレン・スペクター氏がゲーム業界からの引退を表明
+    summary: >-
+      「ウルティマ・アンダーワールド」や「DeusEx」といったPCゲーム史に残る傑作を手がけたゲームプロデューサーのウォーレン・スペクター氏が，自身のLinkedInアカウントを通じてゲーム業界からの引退を表明した。44年に及ぶキャリアで数々の作品を手がけ，イマーシブシムの発展にも大きな影響を与えた業界の重鎮が，現役を退くことになる。
+    published_at: '2026-08-19T04:58:49.000Z'
+    collected_at: '2026-08-19T20:27:20.528Z'
+    image_url: null
+    score: 70
+    reason_code: game_industry_legend
+    slot: preference
+  - id: 23da6e302edde23a
+    url: https://www.itmedia.co.jp/news/article/2608/19/2000000586/
+    source_id: itmedia_news
+    category: other
+    fixed: false
+    title: 数学界を騒がせた“あの図形”を実際に作製→新しい光学素材の卵に　東大などがNature系列誌で発表
+    summary: >-
+      東京大学や東京科学大学、NTTに所属する研究者らがNature Communicationsで発表した論文「Chiral Diffraction
+      from Aperiodic Monotile
+      Structure」は、長年数学界で未解決だった難問から生まれた非周期的なタイルの並び方を実際のナノ構造として作製し、そこに光を当てて特異な現象を観測することに世界で初めて成功した研究報告だ。
+    published_at: '2026-08-18T22:00:00.000Z'
+    collected_at: '2026-08-19T20:27:21.085Z'
+    image_url: null
+    score: 70
+    reason_code: science_materials
+    slot: preference
+  - id: 3748404bff02bfbe
+    url: https://gigazine.net/news/20260819&#45;lucky&#45;pierrot&#45;yakisoba/
+    source_id: gigazine
+    category: food
+    fixed: false
+    title: 函館名物の味がスープとともに楽しめる「函館ラッキーピエロ万歳焼きそば」を食べてみた
+    summary: >-
+      函館のローカルハンバーガーチェーンとして愛され、ご当地バーガー日本一にも選ばれている函館ラッキーピエロのメニューをインスタント麺にした「函館ラッキーピエロ万歳焼きそば」がローソンに並んでいたので、買ってきて食べてみました。続きを読む...
+    published_at: '2026-08-19T10:48:00.000Z'
+    collected_at: '2026-08-19T20:27:22.077Z'
+    image_url: null
+    score: 70
+    reason_code: food_local_taste
+    slot: preference
+  - id: c3918c12842f7c4d
+    url: https://sasatanwwwww.hatenablog.com/entry/2026/08/18/224301
+    source_id: hatebu_hot
+    category: world
+    fixed: false
+    title: バス降りる時は「次止まります」のボタン押せよガチで - おいしいそうなケーキ
+    summary: >-
+      ここ最近バス通学デビューしたんですけど。ガチでこれだけは言わせて欲しい。 バス降りる時は「次止まります」のボタンを押せ。ガチで。今ガチでキレてます
+      そもそもバスに乗ったこともねえカス共に、バスの仕組みの説明からします。バスに乗ったことのねえカス共のせいで、わたしがガチでキレているという可能性もある...
+    published_at: '2026-08-19T05:49:31.000Z'
+    collected_at: '2026-08-19T20:27:19.538Z'
+    image_url: null
+    score: 65
+    reason_code: community_talk
+    slot: preference
+  - id: 5067b88fd86d7ae8
+    url: https://www.itmedia.co.jp/news/article/2608/19/2000000621/
+    source_id: itmedia_news
+    category: ai
+    fixed: false
+    title: AIを活用した特殊詐欺対策、官民から募集　警察庁×GENIAC、懸賞金総額5000万円
+    summary: 金融機関、通信事業者、SNS事業者、警察、税務署などからの応募を想定して
+    published_at: '2026-08-19T05:13:13.000Z'
+    collected_at: '2026-08-19T20:27:21.085Z'
+    image_url: null
+    score: 65
+    reason_code: ai_anti_fraud
+    slot: preference
+  - id: 55d50a24bbfa3083
+    url: https://www.itmedia.co.jp/news/article/2608/19/2000000609/
+    source_id: itmedia_news
+    category: dev
+    fixed: false
+    title: ヤマハ発動機系、保育園向け「電動アシストお散歩カー」開発　保育士「従来の10％の力で動かせた」
+    summary: >-
+      消防業界向けに培った電動アシスト技術を保育分野に応用。消防用が迅速な動きを重視したのに対し、今回の製品は保育現場で誰でも「簡単に操作できる」ことを追求した。9月から受注する。
+    published_at: '2026-08-19T01:19:49.000Z'
+    collected_at: '2026-08-19T20:27:21.085Z'
+    image_url: null
+    score: 65
+    reason_code: dx_nursery
+    slot: preference
+  - id: c1af6ca1c384074c
+    url: https://news.web.nhk/newsweb/na/nd-20260819de45129
+    source_id: nhk_main
+    category: weather
+    fixed: false
+    title: 千葉豪雨 浸水面積31平方キロ 山手線内側の半分ほどに達したか
+    summary: >-
+      今回の豪雨で千葉県では浸水した面積が少なくとも山手線の内側の半分に当たる31平方キロに達したとみられることが測量会社の解析で分かりました。多くの車が動けなくなった千葉市では高低差が数十センチから1メー…
+    published_at: '2026-08-19T11:56:43.000Z'
+    collected_at: '2026-08-19T20:27:19.312Z'
+    image_url: null
+    score: 60
+    reason_code: weather_impact
+    slot: preference
+  - id: 3fb2bf27e0fda0f3
+    url: https://automaton-media.com/articles/newsjp/20260819-461012/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: 『Among Us』アプデで新ロール「ジャッジ」実装。怪しい“クロ”を独断で追放、間違えたら自分がさよなら
+    summary: 『Among Us』のアップデートを配信した。クルーメイト側の新役職「ジャッジ」が追加されたほか、いくつかの改善が実施されている。
+    published_at: '2026-08-19T01:07:37.000Z'
+    collected_at: '2026-08-19T20:27:19.741Z'
+    image_url: null
+    score: 35
+    reason_code: game_update
+    slot: explore
+  - id: 8350c20a1ad2ca8a
+    url: >-
+      https://gigazine.net/news/20260819&#45;gta6&#45;game&#45;play&#45;movie&#45;map&#45;image&#45;leak/
+    source_id: gigazine
+    category: game
+    fixed: false
+    title: GTA6のゲームプレイ映像とマップがリークされる
+    summary: >-
+      2026年8月18日、発売を3カ月後に控えた「GTA6」のゲームプレイ映像とマップ画像が拡散され始めました。真偽は不明ですが、これらを拡散する投稿にはDMCA(デジタルミレニアム著作権法)に基づく削除申請が行われているようです。続きを読む...
+    published_at: '2026-08-19T02:20:00.000Z'
+    collected_at: '2026-08-19T20:27:22.078Z'
+    image_url: null
+    score: 35
+    reason_code: game_leak
+    slot: explore
+  - id: 3f2a850ed2dd1314
+    url: https://automaton-media.com/articles/reportjp/20260819-461105/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: >-
+      『超新時空ゲイム
+      ネプテューヌ∞（アンリミテッド）』プレイレポート。11年ぶりの正統続編でも切れ味が衰えていなかった。オタクで良かったと思わせてくれる、いつもの『ネプテューヌ』の味
+    summary: 『超新時空ゲイム ネプテューヌ∞（アンリミテッド）』の先行プレイレポートをお届けする。
+    published_at: '2026-08-19T09:00:08.000Z'
+    collected_at: '2026-08-19T20:27:19.741Z'
+    image_url: null
+    score: 30
+    reason_code: game_rpg
+    slot: explore
