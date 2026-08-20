@@ -1,0 +1,443 @@
+date: '2026-08-20'
+count: 30
+candidates:
+  - id: 5585b5d8013ec488
+    url: https://zenn.dev/mkj/articles/aad5698672aef3
+    source_id: hatebu_hot
+    category: ai
+    fixed: false
+    title: AI Agentに社内知識をオンボーディングする：SkillsとEvalの設計
+    summary: >-
+      こんにちは、松尾研究所 データサイエンスチームのマネージャーの浮田です。 最近のAI
+      Agentは、一般的な調査や実装であればかなり高い水準でこなせるようになってきました。一方で、実際の社内業務に必要な社内固有の知識は持っておらず、非常に優秀だが、まだオンボーディングを受けていない新入社員に近い状態です。
+      ...
+    published_at: '2026-08-20T08:23:02.000Z'
+    collected_at: '2026-08-20T20:27:52.766Z'
+    image_url: null
+    score: 75
+    reason_code: ai
+    slot: preference
+  - id: 52855186d99a2ae5
+    url: https://gigazine.net/news/20260820&#45;ornith&#45;1&#45;5/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: AIモデル「Ornith-1.5」が登場、Claude Opus 4.8級の大型モデルからスマホ動作可能な軽量モデルまで網羅したオープンモデル
+    summary: >-
+      AI研究組織のOrnithがAIモデル「Ornith-1.5」を2026年8月19日に公開しました。Ornith-1.5は「Ornith-1.5-397B」「Ornith-1.5-35B-A3B」「Ornith-1.5-9B」という3種類のモデルに分かれてリリースされており、最大規模のOrnith-1.5-397BはClaude
+      Opus
+      4.8と同等のベンチマークスコアを達成しています。また、Ornith-1.5-9Bの量子化版はスマートフォンでも実行可能とされています。続きを読む...
+    published_at: '2026-08-20T01:57:00.000Z'
+    collected_at: '2026-08-20T20:27:57.317Z'
+    image_url: null
+    score: 75
+    reason_code: ai
+    slot: preference
+  - id: 1271bdddb7049072
+    url: https://automaton-media.com/articles/interviewsjp/coreb-20260820-461301/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: >-
+      インディーゲーム開発者にお金は出して口は出さない、支援集団COREBLAZERが日本の開発者パートナーを探しているらしい。何が狙い？どういうリスクがある？訊いた
+    summary: >-
+      COREBLAZERは、日本での活動も熱心だ。たとえばCOREBLAZER GAME FEST
+      2026ではroom6をはじめいくつかの日本のパブリッシャーが参加したり、日本の開発者の作品が出展される。なぜCOREBLAZERは日本での活動に熱心なのか？
+    published_at: '2026-08-20T04:55:17.000Z'
+    collected_at: '2026-08-20T20:27:54.326Z'
+    image_url: null
+    score: 70
+    reason_code: gamedev
+    slot: preference
+  - id: e53899cb885fbb35
+    url: https://automaton-media.com/articles/newsjp/20260820-461359/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: 「圧倒的に好評」工場自動化シム『サンダストリー』発売1週間足らずで売上10万本。砂場をまるごと工場化、“演算回路”まで組める可能性無限ゲーム
+    summary: >-
+      Hooded Horseは8月20日、Lantto
+      Gamesが手がける『サンダストリー（Sandustry）』の販売本数が10万本を突破したと発表した。
+    published_at: '2026-08-20T04:38:25.000Z'
+    collected_at: '2026-08-20T20:27:54.326Z'
+    image_url: null
+    score: 70
+    reason_code: automation
+    slot: preference
+  - id: 0a4e48a915e916cb
+    url: https://www.itmedia.co.jp/news/article/2608/20/2000000639/
+    source_id: itmedia_news
+    category: ai
+    fixed: false
+    title: Stripe、AIモデルゲートウェイのOpenRouter買収　400以上のAIモデルを束ねる中立基盤は維持
+    summary: >-
+      Stripeは、AIモデルのゲートウェイを手掛けるOpenRouterを買収することで合意したと発表した。報道による買収額は約75億ドル。OpenRouterは単一APIで400超のモデル切り替えを可能にする。Stripeはトークンコスト最適化を強化し、OpenRouterは買収後も中立的な運営を継続する。
+    published_at: '2026-08-20T01:43:52.000Z'
+    collected_at: '2026-08-20T20:27:56.347Z'
+    image_url: null
+    score: 70
+    reason_code: ai
+    slot: preference
+  - id: 1afb0a4ed4556280
+    url: https://www.itmedia.co.jp/news/article/2608/20/2000000582/
+    source_id: itmedia_news
+    category: other
+    fixed: false
+    title: 日本は「月面輸送」を産業にできるか？　三菱重工と組んだispace、国産ロケットを選んだ3つの理由
+    summary: >-
+      月面探査企業ispaceが2028年に予定する新型月着陸機「ULTRA」の打ち上げに、三菱重工業の「H3」ロケットを使用する契約を結んだ。国産ロケットと国産ランダー（月面着陸機）の組み合わせが実現する試みとあって目を奪われるが、この契約の意味は“日の丸月探査”の実現にとどまらない。
+    published_at: '2026-08-19T22:00:00.000Z'
+    collected_at: '2026-08-20T20:27:56.347Z'
+    image_url: null
+    score: 70
+    reason_code: space
+    slot: preference
+  - id: 1051992dbe1fbc59
+    url: https://www.publickey1.jp/blog/26/fluter_347uiwebassembly.html
+    source_id: publickey
+    category: dev
+    fixed: false
+    title: Fluter 3.47正式リリース。UIライブラリが分離され独立してアップデート可能、デフォルトでWebAssemblyを生成する方向に、など新機能
+    summary: >-
+      Googleは、Dart言語によるアプリケーションフレームワークの最新版「Flutter 3.47」正式リリースを発表しました。 We’ve
+      pieced together something special... Flutter 3.47...
+    published_at: '2026-08-20T15:02:15.000Z'
+    collected_at: '2026-08-20T20:27:57.133Z'
+    image_url: null
+    score: 70
+    reason_code: dev
+    slot: preference
+  - id: 867936cf5372f86c
+    url: https://gigazine.net/news/20260820&#45;cloudflare&#45;remote&#45;spectre/
+    source_id: gigazine
+    category: tech
+    fixed: false
+    title: CloudflareがリモートSpectre攻撃に成功、Workersから機密情報を最大12bit/秒で読み出す
+    summary: >-
+      Cloudflareが本番環境のCloudflare
+      WorkersでリモートSpectre攻撃を再現し、別のWorkerに保存したJWTトークンを最大12bit/秒、99％を超える精度で読み出すことに成功しました。実験はCloudflare側が管理する攻撃用Workerと被害者役のWorkerを対象にしたもので、研究で使われた攻撃手法はすでに対策済みとのことです。続きを読む...
+    published_at: '2026-08-20T03:35:00.000Z'
+    collected_at: '2026-08-20T20:27:57.317Z'
+    image_url: null
+    score: 70
+    reason_code: security
+    slot: preference
+  - id: a1ba452944278ec6
+    url: https://gigazine.net/news/20260820&#45;stripe&#45;acquire&#45;openrouter/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: StripeがOpenRouterの買収を正式発表、AIのための経済インフラを構築へ
+    summary: >-
+      決済サービス大手のStripeが、AIゲートウェイサービスを展開するOpenRouterとの買収契約に合意したことを現地時間の2026年8月19日に発表しました。続きを読む...
+    published_at: '2026-08-20T02:33:00.000Z'
+    collected_at: '2026-08-20T20:27:57.317Z'
+    image_url: null
+    score: 70
+    reason_code: ai
+    slot: preference
+  - id: 7e75c65c3cd306f8
+    url: https://automaton-media.com/articles/newsjp/20260820-461426/
+    source_id: hatebu_hot
+    category: game
+    fixed: false
+    title: >-
+      DLsite親会社による“PCゲームをスマホで遊べる”サービス「viviON GAMES」8月26日始動へ。ゲーム買い切りで、サクッとスマホから -
+      AUTOMATON
+    summary: >-
+      株式会社viviONは8月20日、「viviON GAMES」を8月26日よりサービス開始すると発表した。
+      viviONは、インターネット関連事業やコンテンツ制作事業などに携わる、ゲオホールディングス傘下の企業だ。2021年にエイシスのグループ再編により新会社として設立。現在viviON子会社となっているエイシスでは、国内のコンテンツダ...
+    published_at: '2026-08-20T08:02:25.000Z'
+    collected_at: '2026-08-20T20:27:52.767Z'
+    image_url: null
+    score: 65
+    reason_code: cloudgaming
+    slot: preference
+  - id: e994d6348a34e9d1
+    url: https://automaton-media.com/articles/newsjp/20260820-461476/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: 「ホラーゲームは稼ぎやすい」という時代は終わったのか、開発者ら議論白熱。競合増えつつも“成功率”は結構高そう
+    summary: ホラーゲームの作りやすさ・稼ぎやすさに関する議論が海外掲示板Redditにて生じている。
+    published_at: '2026-08-20T10:47:55.000Z'
+    collected_at: '2026-08-20T20:27:54.326Z'
+    image_url: null
+    score: 65
+    reason_code: gamedev
+    slot: preference
+  - id: e6c7a1d4beec58c8
+    url: https://automaton-media.com/articles/newsjp/20260820-461419/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: 国おこしクリック放置ゲーム『小さな領地の繫盛記』配信直後から大人気。キャンプ地がじわじわ「巨大帝国」化、ゆったり眺める片手間領主生活
+    summary: >-
+      Runic ForgeおよびGamersky Gamesは、Phorust
+      Studiosが手がける『小さな領地の繫盛記』を8月20日にリリースした。配信直後から好評を博し、Steamユーザーレビューは「非常に好評」ステータスを獲得している。
+    published_at: '2026-08-20T06:43:56.000Z'
+    collected_at: '2026-08-20T20:27:54.326Z'
+    image_url: null
+    score: 65
+    reason_code: citybuilder
+    slot: preference
+  - id: 2ac8a451c3bf2509
+    url: https://automaton-media.com/articles/newsjp/20260820-461394/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: 大ヒット作『黒神話：悟空』開発元の新作『黒神話：鍾馗』いきなり「たっぷり15分ゲームプレイ映像」お披露目。さらに壮大、がっつり進化
+    summary: Game Scienceは8月20日、『黒神話：鍾馗』のゲームプレイ映像を公開した。
+    published_at: '2026-08-20T05:11:18.000Z'
+    collected_at: '2026-08-20T20:27:54.326Z'
+    image_url: null
+    score: 65
+    reason_code: gaming
+    slot: preference
+  - id: 2dc43de73ef0a460
+    url: https://www.4gamer.net/games/897/G089770/20260818037/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: >-
+      ［プレイレポ］フロムの謎に包まれた新作アクション「The
+      Duskbloods」は，要素が盛りだくさんすぎ。対人だけではない自由度の高い戦略性が楽しい
+    summary: >-
+      フロム・ソフトウェアは，Switch2用ソフト「TheDuskbloods」のネットワークテストを2026年8月21日から24日まで開催する。これに先駆けて，メディア向けの体験会が行われ，謎に包まれた本作を直接確かめてきた。「PvPvE」という単語から想像するものとは違う，かなり変わっていて楽しい対戦ゲームだ。
+    published_at: '2026-08-20T14:00:00.000Z'
+    collected_at: '2026-08-20T20:27:55.483Z'
+    image_url: null
+    score: 65
+    reason_code: gaming
+    slot: preference
+  - id: 38a931c6af384000
+    url: https://www.4gamer.net/games/897/G089770/20260807028/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: ［インタビュー］「The Duskbloods」は対人を避けても楽しめるPvPvE。宮崎英高氏が語る「変なゲーム」の正体とは
+    summary: >-
+      フロム・ソフトウェアのNintendoSwitch2用新作アクション「TheDuskbloods」のネットワークテストに先駆け，メディア向けの体験会が行われた。体験後には，本作のディレクターを務める宮崎英高氏にインタビューの場が設けられた。
+    published_at: '2026-08-20T14:00:00.000Z'
+    collected_at: '2026-08-20T20:27:55.483Z'
+    image_url: null
+    score: 65
+    reason_code: gaming
+    slot: preference
+  - id: 16affe460515bd5d
+    url: https://www.4gamer.net/games/999/G999901/20260820033/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: PCゲームをスマホで遊べる，買い切りのクラウドゲーミングサービス「viviON GAMES」，8月26日にサービスを開始
+    summary: >-
+      viviONは本日（2026年8月20日），ゲーム販売サービス「viviONGAMES」のサービスを8月26日に開始すると発表した。本サービスは，「あのゲームが、スマホで今すぐ。」をブランドメッセージに，PCゲームをスマートフォンからすぐに楽しめるものだ。
+    published_at: '2026-08-20T08:35:39.000Z'
+    collected_at: '2026-08-20T20:27:55.484Z'
+    image_url: null
+    score: 65
+    reason_code: cloudgaming
+    slot: preference
+  - id: afcb0149b8200413
+    url: https://www.4gamer.net/games/938/G093816/20260820012/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: アクションRPG「黒神話：鍾馗」，15分に及ぶゲームプレイトレイラーを公開。鬼や悪霊を従える戦闘も披露
+    summary: >-
+      GameScienceは，開発中のアクションRPG「黒神話：鍾馗」のゲームプレイトレイラーを公開した。約15分にわたる映像では，広大なフィールドの探索や異形の怪物との戦闘に加え，炎や雷電，お札の力を宿した宝剣による剣戟や，鬼や悪霊を従えて戦うシステム，ボス戦などを確認できる。
+    published_at: '2026-08-20T03:37:49.000Z'
+    collected_at: '2026-08-20T20:27:55.484Z'
+    image_url: null
+    score: 65
+    reason_code: gaming
+    slot: preference
+  - id: ccdc5c4f81628777
+    url: >-
+      https://gigazine.net/news/20260820&#45;jetbrains&#45;programming&#45;language&#45;migration/
+    source_id: gigazine
+    category: dev
+    fixed: false
+    title: プログラマーはどの言語からどの言語へ移住しているのか？JetBrainsが8837人分の回答を分析
+    summary: >-
+      プログラミング言語の「Kotlin」などを開発するJetBrainsが、8837人の開発者にプログラミング言語の使用実態を質問しました。その結果、開発者が主に使用する言語や、過去1年でどの言語に乗り換えたのかが明らかになりました。続きを読む...
+    published_at: '2026-08-20T14:00:00.000Z'
+    collected_at: '2026-08-20T20:27:57.316Z'
+    image_url: null
+    score: 65
+    reason_code: dev
+    slot: preference
+  - id: f8f079b53e53a858
+    url: https://gigazine.net/news/20260820&#45;lfm2&#45;5&#45;qad/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: スマホで動く小型AIモデル「LFM2.5」に省メモリ化を施しつつ性能低下を抑えたQAD版が登場
+    summary: >-
+      AI企業のLiquid
+      AIはノートPCやスマートフォンといった低スペックなデバイスでも実行できる小型AIモデルとしてLFM2.5シリーズを展開しています。新たにLFM2.5シリーズに量子化認識蒸留(QAD)という省メモリ化しつつ性能低下を抑える技術を適用したバージョンがオープンモデルとして公開されました。続きを読む...
+    published_at: '2026-08-20T12:00:00.000Z'
+    collected_at: '2026-08-20T20:27:57.316Z'
+    image_url: null
+    score: 65
+    reason_code: ai
+    slot: preference
+  - id: 6f6583f56637c891
+    url: https://gigazine.net/news/20260820&#45;openlogi/
+    source_id: gigazine
+    category: dev
+    fixed: false
+    title: ユーザーアカウント不要で「Logi Options+」と同じように各種設定ができるようになる「OpenLogi」
+    summary: >-
+      ロジクールのマウスやキーボードは、「Logi
+      Options+」という専用ソフトウェアと連携することでボタンに機能を割り当てたりショートカットを設定できたりします。そんなLogi
+      Options+の代わりに、アカウント不要でマウスのボタン割り当てなどの設定をするための「ローカルファーストな代替案」として作成されたのが「OpenLogi」です。続きを読む...
+    published_at: '2026-08-20T11:13:00.000Z'
+    collected_at: '2026-08-20T20:27:57.316Z'
+    image_url: null
+    score: 65
+    reason_code: dev
+    slot: preference
+  - id: 685624b202d475a3
+    url: >-
+      https://gigazine.net/news/20260820&#45;openai&#45;zero&#45;data&#45;retention&#45;private&#45;safety&#45;processing/
+    source_id: gigazine
+    category: ai
+    fixed: false
+    title: OpenAIがゼロデータ保持を維持したまま安全性監視を強化する「Private Safety Processing」のプレビュー版を提供開始
+    summary: >-
+      現地時間の2026年8月19日、OpenAIがユーザーが入力したプロンプトもAIによる応答も保持しないという「Zero Data
+      Retention(ZDR：ゼロデータ保持)」方針を維持しながら、安全性監視を強化することができる「Private Safety
+      Processing」のプレビュー版を公開しました。続きを読む...
+    published_at: '2026-08-20T02:43:00.000Z'
+    collected_at: '2026-08-20T20:27:57.317Z'
+    image_url: null
+    score: 65
+    reason_code: ai
+    slot: preference
+  - id: c2a0a41d9efe1714
+    url: https://note.com/hatamasa/n/nc4db96ecbe62
+    source_id: hatebu_hot
+    category: dev
+    fixed: false
+    title: 会議でメンバーが黙るのは、当事者意識の問題ではない｜hatamasa
+    summary: >-
+      発言が出ないとき、原因の大半はメンバー側ではなく、場の設計側にあると思っています。
+      先日の1on1で、リーダーから「MTGで発言があまり出ない」という相談を受けました。
+      聞いていくと、状況はけっこう具体的でした。参加者は5人。話を振っても「特にないです」「うーん、よくわからないです」で会話が止まってしまい...
+    published_at: '2026-08-20T08:23:23.000Z'
+    collected_at: '2026-08-20T20:27:52.764Z'
+    image_url: null
+    score: 60
+    reason_code: workplace
+    slot: preference
+  - id: ab18484df9c7867c
+    url: https://automaton-media.com/articles/reportjp/20260820-461510/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: フロム・ソフトウェア新作『ダスクブラッド』先行プレイ感想。団結したり、戦ったり恋したり、“フロム流”すぎるまったく新しいPvPvE
+    summary: 『The Duskbloods（ダスクブラッド）』の試遊プレイを通して確認できた、フロム・ソフトウェアの「癖」が濃厚な本作の内容を紹介していこう。
+    published_at: '2026-08-20T14:00:02.000Z'
+    collected_at: '2026-08-20T20:27:54.326Z'
+    image_url: null
+    score: 60
+    reason_code: gaming
+    slot: preference
+  - id: 4a3aa6fbe1cee8f9
+    url: https://automaton-media.com/articles/interviewsjp/20260820-461487/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: フロム新作PvPvE『ダスクブラッド』では宮崎英高Dの「好き」が濃いめに反映。目隠し愛・立体マップ愛、そして変なシステム満載
+    summary: 『The Duskbloods（ダスクブラッド）』のディレクターを務める宮崎英高氏へのメディア合同インタビューの様子をお届けしよう。
+    published_at: '2026-08-20T14:00:01.000Z'
+    collected_at: '2026-08-20T20:27:54.326Z'
+    image_url: null
+    score: 60
+    reason_code: gaming
+    slot: preference
+  - id: e2c36c3cd1788fe1
+    url: https://automaton-media.com/articles/newsjp/20260820-461442/
+    source_id: automaton
+    category: game
+    fixed: false
+    title: 不評に苦しんだ『Redfall』最後の改善アプデ、「スタジオ閉鎖で解雇されたスタッフたち」が作っていた。もう社員じゃないけど、“最後の意地”を貫く
+    summary: >-
+      開発元が閉鎖されたのちに配信された『Redfall』の最終アップデートは、スタジオ閉鎖によって解雇されたにもかかわらず、一部のスタッフが希望して開発を続け実現していたという。
+    published_at: '2026-08-20T07:41:45.000Z'
+    collected_at: '2026-08-20T20:27:54.326Z'
+    image_url: null
+    score: 60
+    reason_code: gamedev
+    slot: preference
+  - id: 43a10d457400880d
+    url: https://www.4gamer.net/games/991/G999110/20260820041/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: 8月30日開催のゲーム製作フェス「ゲームメーカーズ スクランブル2026」，プロに聞ける「なんでも相談所」のタイムテーブルを公開
+    summary: >-
+      ゲームメーカーズ」は，2026年8月30日に東京・有明で開催する「ゲームメーカーズスクランブル2026」について，なんでも相談所のタイムテーブルを公開した。
+    published_at: '2026-08-20T10:20:38.000Z'
+    collected_at: '2026-08-20T20:27:55.483Z'
+    image_url: null
+    score: 60
+    reason_code: gamedev
+    slot: preference
+  - id: eaaba5c2ff38b331
+    url: https://www.4gamer.net/games/032/G103273/20260820018/
+    source_id: fourgamer
+    category: game
+    fixed: false
+    title: '淡路島を舞台にしたサムライ成り上がりシム「Warlord: Awaji」，公式メイントレイラーを公開。発売は9月10日に決定'
+    summary: >-
+      DarkmatterGamesは本日，開発中のオープンワールドサムライシミュレーション「Warlord:Awaji」のメイントレイラーを公開し，2026年9月10日にリリースすると発表した。14世紀の淡路島を舞台に，1人の侍大将から勢力を拡大する「成り上がり」や，リアルタイムの合戦，町づくりなどを楽しめる。
+    published_at: '2026-08-20T05:26:57.000Z'
+    collected_at: '2026-08-20T20:27:55.484Z'
+    image_url: null
+    score: 60
+    reason_code: citybuilder
+    slot: preference
+  - id: e5d84787172e5b21
+    url: https://gigazine.net/news/20260820&#45;headline/
+    source_id: gigazine
+    category: other
+    fixed: false
+    title: 2026年8月20日のヘッドラインニュース
+    summary: >-
+      JR東海が、2026年8月8日(土)に1日限定で運行した夜行新幹線「東海道ルミエールエクスプレス」の反響が大きかったことを受けて、シルバーウィーク期間の9月22日(火)に今度は新大阪発・東京行きの「東海道ルミエールエクスプレス」を運行すると発表しました。続きを読む...
+    published_at: '2026-08-20T11:01:00.000Z'
+    collected_at: '2026-08-20T20:27:57.316Z'
+    image_url: null
+    score: 30
+    reason_code: news
+    slot: explore
+  - id: 3fe91e6cf9928f1b
+    url: https://www.4gamer.net/games/004/G100451/20260820015/
+    source_id: fourgamer
+    category: other
+    fixed: false
+    title: ミュージカル＆音楽ライブ「劇場版 七次元生徒会！」が2027年1月23日に開催決定。サウンドトラックの予約販売もスタート
+    summary: >-
+      2026年8月19日，ANYCOLORは，叶，樋口楓，三枝明那，仙河緑（緑仙），レオス・ヴィンセント，周央サンゴの6名によるユニット「七次元生徒会」が，2027年1月23日に横浜市のぴあアリーナMMでライブイベント「劇場版七次元生徒会！〜ずっと一緒大作戦！〜」を開催することを発表した。
+    published_at: '2026-08-20T04:21:39.000Z'
+    collected_at: '2026-08-20T20:27:55.484Z'
+    image_url: null
+    score: 25
+    reason_code: event
+    slot: explore
+  - id: a1f3bed72acbe3c2
+    url: https://www.nikkei.com/article/DGXZQOUB15C510V10C26A7000000/
+    source_id: hatebu_hot
+    category: other
+    fixed: false
+    title: 外貨預金の伸び、過去最大4兆円　家計･企業で進む「円からの資産分散」 - 日本経済新聞
+    summary: >-
+      個人や企業が外貨預金を急速に増やしている。4〜6月期の平均残高は前年同期から約4兆円増え、過去最大の伸びを記録した。円の先安観から保有資産を分散する動きが広がり、外国為替市場で新たな円安圧力になる循環が起きている。国内の銀行に預けられた外貨預金の残高は4〜6月期におよそ26兆1000億円と前年同期より18%増...
+    published_at: '2026-08-20T09:40:12.000Z'
+    collected_at: '2026-08-20T20:27:52.766Z'
+    image_url: null
+    score: 20
+    reason_code: finance
+    slot: explore
