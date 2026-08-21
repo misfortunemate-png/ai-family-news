@@ -1,0 +1,29 @@
+date: '2026-08-21'
+count: 2
+candidates:
+  - id: dc93f740da22e0c7
+    url: >-
+      https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json#2026-08-22T05:00:00+09:00
+    source_id: jma_tokyo
+    category: weather
+    fixed: true
+    title: 東京地方 天気 2026-08-22
+    summary: くもり 夕方 から 雨 所により 昼過ぎ から 夜のはじめ頃 雷を伴い 非常に 激しく 降る
+    published_at: '2026-08-21T20:00:00.000Z'
+    collected_at: '2026-08-21T20:25:19.616Z'
+    image_url: null
+    slot: fixed
+    score: null
+  - id: c85878072e616b13
+    url: >-
+      https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json#2026-08-23T00:00:00+09:00
+    source_id: jma_tokyo
+    category: weather
+    fixed: true
+    title: 東京地方 天気 2026-08-23
+    summary: くもり 所により 雨 で 雷を伴う
+    published_at: '2026-08-22T15:00:00.000Z'
+    collected_at: '2026-08-21T20:25:19.616Z'
+    image_url: null
+    slot: fixed
+    score: null
