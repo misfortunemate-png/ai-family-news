@@ -1,0 +1,77 @@
+date: '2026-08-22'
+count: 5
+candidates:
+  - id: fb39633b2e6bb299
+    url: https://togetter.com/li/2736129
+    source_id: hatebu_hot
+    category: other
+    fixed: false
+    title: 入院中の子ども「やっぱり帰ろうと思いましゅ！おじゃましました！」グッとくる小児病棟のナースコールがこちら「可愛くて切ない」
+    summary: >-
+      nursekodomama @NurseKodomama
+      今日のかわいいナースコール大賞は「やっぱり、帰ろうと思いましゅ！！！！おじゃましました！！！」でした。
+      お部屋に行くと、リュックサックをしっかり持っていました。
+      帰りたくなっちゃったね、とお話を聞いていると「ぼくはいいけど、ままが心配なので、」ということを熱弁していまし...
+    published_at: '2026-08-22T07:25:49.000Z'
+    collected_at: '2026-08-22T20:21:53.302Z'
+    image_url: null
+    score: 0
+    reason_code: unknown
+    slot: explore
+  - id: 0bb6b2db1aefe9b2
+    url: https://www.oricon.co.jp/special/76121/
+    source_id: hatebu_hot
+    category: other
+    fixed: false
+    title: 2026年 好きなラジオパーソナリティーランキング（芸人編）
+    summary: >-
+      現在のNHKがラジオ放送をスタートさせて100年の節目となる昨年、オリコンニュースは『好きなラジオパーソナリティーランキング』を新設。2回目となる今年も「俳優／アーティスト編」と「芸人編」というカテゴリーに分け、調査を行った。今週発表の「芸人編」では、2009年10月にスタートして以降、土曜深夜のリスナー「リ...
+    published_at: '2026-08-20T23:28:26.000Z'
+    collected_at: '2026-08-22T20:21:53.303Z'
+    image_url: null
+    score: 0
+    reason_code: unknown
+    slot: explore
+  - id: 4df37d62dbbb6f05
+    url: https://natalie.mu/music/pp/cornelius-refractions
+    source_id: hatebu_hot
+    category: other
+    fixed: false
+    title: Corneliusインタビュー｜アクティブな変化をもたらした最新アルバムとAIの関係 - 音楽ナタリー 特集・インタビュー
+    summary: >-
+      ナタリー 音楽 特集・インタビュー Cornelius Corneliusインタビュー｜アクティブな変化をもたらした最新アルバムとAIの関係
+      Cornelius「Refractions」 PR 2026年8月22日 「夢中夢 -Dream In
+      Dream-」から3年、Corneliusが通算8枚目となるオリジナルアルバム「Refractions」を完成させた。
+      先行してリリースされた「Bad ...
+    published_at: '2026-08-22T08:11:10.000Z'
+    collected_at: '2026-08-22T20:21:53.303Z'
+    image_url: null
+    score: 0
+    reason_code: unknown
+    slot: explore
+  - id: 5fa21624adebb8fc
+    url: >-
+      https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json#2026-08-23T05:00:00+09:00
+    source_id: jma_tokyo
+    category: weather
+    fixed: true
+    title: 東京地方 天気 2026-08-23
+    summary: くもり 所により 夕方 から 夜のはじめ頃 雨 で 雷を伴い 激しく 降る
+    published_at: '2026-08-22T20:00:00.000Z'
+    collected_at: '2026-08-22T20:21:57.986Z'
+    image_url: null
+    slot: fixed
+    score: null
+  - id: b2f00edeb94ca945
+    url: >-
+      https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json#2026-08-24T00:00:00+09:00
+    source_id: jma_tokyo
+    category: weather
+    fixed: true
+    title: 東京地方 天気 2026-08-24
+    summary: 晴れ 朝晩 くもり
+    published_at: '2026-08-23T15:00:00.000Z'
+    collected_at: '2026-08-22T20:21:57.986Z'
+    image_url: null
+    slot: fixed
+    score: null
